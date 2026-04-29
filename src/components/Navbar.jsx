@@ -96,13 +96,12 @@ const Navbar = () => {
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -20 }}
-            className="md:hidden fixed inset-0 w-full h-[100dvh] flex flex-col z-[100]"
-            style={{ backgroundColor: '#000000' }}
+            className="md:hidden fixed inset-0 w-full h-[100dvh] flex flex-col z-[100] bg-black"
           >
             {/* Modal Header */}
             <div className="flex justify-between items-center p-6 w-full">
               <Link to="/" className="flex items-center gap-2" onClick={() => setIsOpen(false)}>
-                <div className="w-10 h-10 bg-[#dc2626] flex items-center justify-center rounded shadow-lg shadow-red-500/20">
+                <div className="w-10 h-10 bg-primary flex items-center justify-center rounded shadow-lg shadow-primary/20">
                   <span className="text-white font-bold text-xl font-heading">JTV</span>
                 </div>
               </Link>
@@ -119,7 +118,7 @@ const Navbar = () => {
                   to={link.href} 
                   onClick={() => setIsOpen(false)}
                   className={({ isActive }) => 
-                    `text-2xl font-black tracking-widest uppercase transition-colors ${isActive ? 'text-[#dc2626]' : 'text-white hover:text-gray-300'}`
+                    `text-2xl font-black tracking-widest uppercase transition-colors ${isActive ? 'text-primary' : 'text-white hover:text-gray-300'}`
                   }
                 >
                   {link.name}
@@ -128,7 +127,7 @@ const Navbar = () => {
               <div className="w-16 h-px bg-gray-800 my-4" />
               <Link 
                 to="/proyectos" 
-                className="btn justify-center py-4 px-10 mt-2 w-full max-w-[280px] bg-[#dc2626] text-white hover:bg-red-700 text-lg tracking-widest"
+                className="btn justify-center py-4 px-10 mt-2 w-full max-w-[280px] bg-primary text-white hover:bg-primary-dark text-lg tracking-widest"
                 onClick={() => setIsOpen(false)}
               >
                 VER PROYECTOS
@@ -138,13 +137,6 @@ const Navbar = () => {
         )}
       </AnimatePresence>
       
-      <style>{`
-        .bg-primary { background-color: var(--color-primary); }
-        .text-primary { color: var(--color-primary); }
-        .text-text { color: var(--color-text); }
-        .text-text-muted { color: var(--color-text-muted); }
-        .shadow-primary\/20 { box-shadow: 0 4px 12px rgba(211, 47, 47, 0.2); }
-      `}</style>
     </nav>
   );
 };

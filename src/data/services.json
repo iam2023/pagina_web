@@ -1,0 +1,50 @@
+[
+  {
+    "id": "estructuras",
+    "title": "Estructuras Metálicas",
+    "description": "Sistemas estructurales de alta complejidad, naves industriales y puentes bajo normativas internacionales.",
+    "image": "/images/servicios/estructurametalica.webp",
+    "icon": "Compass",
+    "isLarge": true
+  },
+  {
+    "id": "pintura",
+    "title": "Pintura<br />Industrial",
+    "description": "Recubrimientos térmicos y anticorrosivos epóxicos.",
+    "image": "/images/servicios/pintura.webp",
+    "icon": "Paintbrush",
+    "borderSide": "bottom"
+  },
+  {
+    "id": "vidrio",
+    "title": "Vidrio y<br />Aluminio",
+    "description": "Muros cortina y cerramientos técnicos de alta eficiencia.",
+    "image": "/images/servicios/vidrio.webp",
+    "icon": "LayoutGrid",
+    "borderSide": "left"
+  },
+  {
+    "id": "pisos",
+    "title": "Pisos<br />Técnicos",
+    "description": "Pavimentación industrial de alto tráfico y pulidos químicos.",
+    "image": "https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?auto=format&fit=crop&q=80&w=800",
+    "icon": "Layers",
+    "borderSide": "right"
+  },
+  {
+    "id": "obras",
+    "title": "Obras<br />Civiles",
+    "description": "Infraestructura base y acabados estructurales de concreto.",
+    "image": "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&q=80&w=800",
+    "icon": "Home",
+    "borderSide": "bottom"
+  },
+  {
+    "id": "drywall",
+    "title": "Sistema<br />Drywall",
+    "description": "Tabiquería técnica y cielos rasos acústicos industriales.",
+    "image": "/images/servicios/draiwel.webp",
+    "icon": "Grid",
+    "borderSide": "left"
+  }
+]
