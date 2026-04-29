@@ -1,0 +1,63 @@
+[
+  {
+    "id": "1",
+    "slug": "optimizacion-estructuras-metalicas-naves-industriales",
+    "title": "Optimización de Estructuras Metálicas en Naves Industriales",
+    "excerpt": "Analizamos las técnicas más avanzadas para reducir el peso estructural sin comprometer la integridad sísmica, optimizando costos en proyectos de gran envergadura.",
+    "author": "Ing. Ricardo J. Torres",
+    "content": "<h2>Innovación en el Diseño Estructural</h2><p>La optimización de naves industriales hoy requiere un balance perfecto entre seguridad y eficiencia de materiales. En este artículo exploramos cómo el uso de software de modelado avanzado permite reducir hasta un 15% del peso muerto sin sacrificar la resistencia sísmica requerida por las normas peruanas.</p><h3>Técnicas de Aligeramiento</h3><p>Utilizamos perfiles de sección variable y conexiones empernadas de alta resistencia para garantizar una ejecución más rápida y segura en obra. El proceso comienza con un análisis de cargas vivas y muertas, seguido por una simulación de vientos extremos.</p><ul><li>Uso de acero grado 50 para mayor ductilidad.</li><li>Reducción de desperdicios en cortes mediante nesting digital.</li><li>Protección anticorrosiva de larga duración.</li></ul><p>Finalmente, la sostenibilidad juega un papel crucial, permitiendo que estas estructuras sean reciclables al final de su vida útil.</p>",
+    "date": "14 OCT 2024",
+    "readingTime": "8 MIN LEÍDA",
+    "category": "INGENIERÍA ESTRUCTURAL",
+    "image": "/images/servicios/estructurametalica.webp"
+  },
+  {
+    "id": "2",
+    "slug": "soldadura-robotizada-futuro-fabricacion-peru",
+    "title": "Soldadura Robotizada: El Futuro de la Fabricación en Perú",
+    "excerpt": "¿Cómo la automatización está transformando los talleres de fabricación metalmecánica locales, incrementando la precisión y la seguridad laboral?",
+    "author": "Equipo Técnico JVT",
+    "content": "<h2>Automatización en el Taller Industrial</h2><p>La soldadura robotizada ha dejado de ser un lujo de la industria automotriz para convertirse en una necesidad en la fabricación de estructuras pesadas. En JVT, hemos integrado celdas de soldadura que garantizan cordones perfectos y uniformes en cada unión.</p><h3>Ventajas Competitivas</h3><p>La principal ventaja es la repetibilidad. Un robot puede mantener el mismo ángulo y velocidad durante horas, algo imposible para un operario humano en jornadas extensas. Esto reduce drásticamente el retrabajo por fallas de porosidad o falta de penetración.</p><p>Además, liberamos a nuestros maestros soldadores de las tareas más repetitivas para que se enfoquen en ensambles complejos y control de calidad final.</p>",
+    "date": "10 OCT 2024",
+    "readingTime": "6 MIN LEÍDA",
+    "category": "INNOVACIÓN TECNOLÓGICA",
+    "image": "/images/servicios/pintura.webp"
+  },
+  {
+    "id": "3",
+    "slug": "prevencion-corrosion-ambientes-salinos",
+    "title": "Prevención de Corrosión en Ambientes Salinos",
+    "excerpt": "Sistemas de pintura y recubrimientos epóxicos diseñados para proteger infraestructuras críticas en la costa peruana contra la humedad y el salitre.",
+    "author": "Ing. Carlos Mendoza",
+    "content": "<h2>El Desafío de la Costa Peruana</h2><p>La humedad relativa y la salinidad en zonas como el Callao o Pisco son de las más agresivas del mundo. Para proteger la inversión de nuestros clientes, aplicamos sistemas de recubrimiento tri-capa que detienen el proceso de oxidación galvánica desde el primer día.</p><h3>Proceso de Aplicación Técnica</h3><p>El primer paso es el granallado al metal blanco (norma SSPC-SP10), asegurando una superficie libre de contaminantes. Luego, aplicamos una base rica en zinc, seguida por una capa intermedia de epóxico de alto espesor.</p><p>El acabado final en poliuretano no solo da el color corporativo, sino que protege contra la radiación UV, evitando que la pintura se tiza y pierda sus propiedades protectoras.</p>",
+    "date": "05 OCT 2024",
+    "readingTime": "12 MIN LEÍDA",
+    "category": "MANTENIMIENTO INDUSTRIAL",
+    "image": "/images/servicios/vidrio.webp"
+  },
+  {
+    "id": "4",
+    "slug": "montaje-puente-grua-50-toneladas-planta-minera",
+    "title": "Montaje de Puente Grúa de 50 Toneladas en Planta Minera",
+    "excerpt": "Detallamos el proceso logístico y de ingeniería estructural requerido para el montaje de alta precisión en condiciones geográficas extremas a 4100 msnm.",
+    "author": "Gerencia de Proyectos JVT",
+    "content": "<h2>Ingeniería a Gran Altura</h2><p>Realizar el montaje de un puente grúa de 50 toneladas a más de 4000 metros sobre el nivel del mar presenta desafíos únicos: desde la pérdida de potencia de los equipos de izaje hasta las bajas temperaturas que afectan la fluidez de los aceites hidráulicos.</p><h3>Planificación y Maniobras</h3><p>Se diseñó un plan de izaje crítico con un factor de seguridad de 1.5, utilizando dos grúas de 120 toneladas operando en tándem. La precisión fue milimétrica: las vigas carrileras debían quedar alineadas con una tolerancia máxima de 2mm en toda su longitud.</p><p>Este proyecto fue entregado en tiempo record, cumpliendo con todos los protocolos de seguridad minera y garantizando la operatividad de la planta procesadora.</p>",
+    "date": "02 OCT 2024",
+    "readingTime": "15 MIN LEÍDA",
+    "category": "CASOS DE ÉXITO",
+    "isFeatured": true,
+    "image": "/images/servicios/estructurametalica.webp"
+  },
+  {
+    "id": "5",
+    "slug": "importancia-certificacion-iso-9001-estructuras",
+    "title": "Importancia de la Certificación ISO 9001 en Estructuras",
+    "excerpt": "La estandarización de procesos no es solo un requisito legal, sino la garantía de seguridad y durabilidad en cada pieza fabricada.",
+    "author": "Dpto. de Calidad JVT",
+    "content": "<h2>Calidad que se Traduce en Seguridad</h2><p>Contar con procesos certificados bajo la norma ISO 9001:2015 nos permite trazar cada pieza de acero desde que llega de la fundición hasta que queda instalada en el sitio del cliente. La calidad no es un accidente, es el resultado de un sistema riguroso.</p><h3>Trazabilidad y Pruebas</h3><p>Realizamos ensayos no destructivos (tintes penetrantes y ultrasonido) al 100% de nuestras soldaduras críticas. Esto asegura que no existan fallas internas que puedan comprometer la vida útil de la estructura.</p><p>Para JVT, la certificación es el compromiso formal de entregar excelencia técnica en cada proyecto, sin excepciones.</p>",
+    "date": "28 SEP 2024",
+    "readingTime": "5 MIN LEÍDA",
+    "category": "NORMATIVAS",
+    "image": "/images/servicios/draiwel.webp"
+  }
+]

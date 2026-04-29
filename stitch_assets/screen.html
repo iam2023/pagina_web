@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+
+<html class="light" lang="es"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700;800;900&amp;family=Inter:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "inverse-on-surface": "#ebf1ff",
+                      "on-secondary-fixed": "#111c2c",
+                      "tertiary-container": "#503400",
+                      "tertiary-fixed": "#ffddb1",
+                      "surface-container-lowest": "#ffffff",
+                      "on-background": "#121c2c",
+                      "on-surface-variant": "#43474d",
+                      "background": "#f9f9ff",
+                      "primary": "#002542",
+                      "outline-variant": "#c3c6ce",
+                      "on-surface": "#121c2c",
+                      "secondary-fixed-dim": "#bcc7dd",
+                      "on-tertiary-container": "#db960a",
+                      "error": "#ba1a1a",
+                      "on-error-container": "#93000a",
+                      "on-primary-fixed-variant": "#2a4968",
+                      "secondary-container": "#d5e0f7",
+                      "on-tertiary-fixed": "#291800",
+                      "secondary": "#545f72",
+                      "outline": "#73777e",
+                      "on-tertiary-fixed-variant": "#614000",
+                      "secondary-fixed": "#d8e3fa",
+                      "on-primary-container": "#87a5ca",
+                      "tertiary-fixed-dim": "#ffba48",
+                      "on-secondary-container": "#586377",
+                      "inverse-primary": "#abc9ef",
+                      "on-primary-fixed": "#001d35",
+                      "surface-variant": "#d9e3f9",
+                      "surface-bright": "#f9f9ff",
+                      "on-primary": "#ffffff",
+                      "primary-fixed": "#d1e4ff",
+                      "surface-container-high": "#dee8ff",
+                      "surface-container-low": "#f0f3ff",
+                      "on-error": "#ffffff",
+                      "tertiary": "#342000",
+                      "primary-fixed-dim": "#abc9ef",
+                      "on-tertiary": "#ffffff",
+                      "surface-tint": "#436182",
+                      "surface-container": "#e7eeff",
+                      "primary-container": "#1b3b5a",
+                      "surface": "#f9f9ff",
+                      "error-container": "#ffdad6",
+                      "inverse-surface": "#273141",
+                      "surface-container-highest": "#d9e3f9",
+                      "on-secondary": "#ffffff",
+                      "surface-dim": "#d0daf0",
+                      "on-secondary-fixed-variant": "#3c475a"
+              },
+              "borderRadius": {
+                      "DEFAULT": "0.125rem",
+                      "lg": "0.25rem",
+                      "xl": "0.5rem",
+                      "full": "0.75rem"
+              },
+              "fontFamily": {
+                      "headline": ["Work Sans"],
+                      "body": ["Inter"],
+                      "label": ["Inter"]
+              }
+            },
+          }
+        }
+    </script>
+<style>
+        body { font-family: 'Inter', sans-serif; }
+        h1, h2, h3, h4 { font-family: 'Work Sans', sans-serif; }
+        .glass-nav { background: rgba(255, 255, 255, 0.8); backdrop-filter: blur(12px); }
+        .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; }
+    </style>
+</head>
+<body class="bg-surface text-on-surface selection:bg-tertiary-fixed-dim selection:text-on-tertiary-fixed">
+<!-- Header Navigation -->
+<header class="fixed top-0 left-0 w-full flex justify-between items-center px-8 h-20 bg-white/80 dark:bg-slate-950/80 backdrop-blur-md z-50 shadow-sm">
+<div class="text-xl font-black tracking-tighter text-slate-900 dark:text-slate-50 uppercase">
+            Allemant Structural
+        </div>
+<nav class="hidden md:flex items-center space-x-8 font-['Work_Sans'] font-bold tracking-tight">
+<a class="text-slate-500 dark:text-slate-400 hover:text-amber-500 transition-colors duration-200" href="#">Servicios</a>
+<a class="text-slate-900 dark:text-white border-b-2 border-amber-400 pb-1" href="#">Proyectos</a>
+<a class="text-slate-500 dark:text-slate-400 hover:text-amber-500 transition-colors duration-200" href="#">Ingeniería</a>
+<a class="text-slate-500 dark:text-slate-400 hover:text-amber-500 transition-colors duration-200" href="#">Nosotros</a>
+<a class="text-slate-500 dark:text-slate-400 hover:text-amber-500 transition-colors duration-200" href="#">Contacto</a>
+</nav>
+<div class="flex items-center gap-4">
+<button class="bg-primary text-on-primary px-6 py-2.5 rounded-lg font-bold hover:bg-primary-container transition-all active:scale-95 duration-150">
+                Cotizar Proyecto
+            </button>
+</div>
+</header>
+<main class="pt-20">
+<!-- Hero Section -->
+<section class="relative min-h-[614px] flex items-center overflow-hidden bg-primary-container">
+<div class="absolute inset-0 opacity-40">
+<div class="absolute inset-0 bg-gradient-to-r from-primary to-transparent z-10"></div>
+<img class="w-full h-full object-cover" data-alt="Perspective view of a massive steel structure under construction with a clear blue sky background, showcasing engineering precision" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDUAS0vMYiXfGD0yqnfJCF2fLp-7AqHTI6LNlPNDY6yUpUdoEf0rnoDX1TyiYd0N5kNh6wjq8Fq2wrd--WhQoNeEUtMBE6diXpyPKTCuu2Pa2ct2GSuE5I2J3T2f6EzGBuI-qSCy9oEotBoZSUHJIIJRBwyWFaq2l21I7spOdxzDIOTjtmEqa5eOauSoK85G5lBEaAO44yH8C51nKZhf7iwn_AJwbvFCDfU7zKe7IAv-8r0LYtKzckdLCYUEPocSd4zU7DnEb_CJcE"/>
+</div>
+<div class="container mx-auto px-8 relative z-20">
+<div class="max-w-3xl">
+<span class="inline-block px-3 py-1 bg-tertiary-fixed-dim text-on-tertiary-fixed text-[0.7rem] font-bold tracking-[0.1em] uppercase mb-6 rounded-sm">
+                        Struxure Industrial Excellence
+                    </span>
+<h1 class="text-5xl md:text-7xl font-black text-white leading-none tracking-tighter mb-6 uppercase">
+                        Portafolio de Proyectos de Ingeniería
+                    </h1>
+<p class="text-xl text-on-primary-container max-w-xl font-light leading-relaxed">
+                        Soluciones estructurales e industriales ejecutadas con precisión milimétrica y los más altos estándares de seguridad.
+                    </p>
+</div>
+</div>
+</section>
+<!-- Project Filters -->
+<section class="bg-surface sticky top-20 z-40 py-8 px-8">
+<div class="container mx-auto flex flex-wrap items-center gap-3">
+<button class="px-6 py-2 bg-primary text-on-primary rounded-lg text-sm font-semibold">Todos</button>
+<button class="px-6 py-2 bg-surface-container-low text-secondary hover:text-primary transition-colors rounded-lg text-sm font-semibold">Estructuras Metálicas</button>
+<button class="px-6 py-2 bg-surface-container-low text-secondary hover:text-primary transition-colors rounded-lg text-sm font-semibold">Pintura Industrial</button>
+<button class="px-6 py-2 bg-surface-container-low text-secondary hover:text-primary transition-colors rounded-lg text-sm font-semibold">Vidrio y Aluminio</button>
+<button class="px-6 py-2 bg-surface-container-low text-secondary hover:text-primary transition-colors rounded-lg text-sm font-semibold">Pisos Técnicos</button>
+<button class="px-6 py-2 bg-surface-container-low text-secondary hover:text-primary transition-colors rounded-lg text-sm font-semibold">Obras Civiles</button>
+</div>
+</section>
+<!-- Project Grid (Asymmetrical Bento) -->
+<section class="px-8 pb-32">
+<div class="container mx-auto">
+<div class="grid grid-cols-1 md:grid-cols-12 gap-8">
+<!-- Feature Card 1 -->
+<div class="md:col-span-8 group relative overflow-hidden bg-surface-container-high h-[500px]">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Wide angle view of a modern large scale industrial warehouse with silver metallic cladding and precise technical lines" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAxy40eRmLKsleQWpe9SjDsRC3Ra0HmcIGsDgaMjCPoFTQQVyGhT00piSIV77sfgvyZLvKTc9VNa6wSsfNPDjZ0c300vtzKjHcrkIfWPs-XGHmw8wHMUIaZi4Jqz4_YUVpoYkM_CuV9MRpemS0kw8KIQ8ccLwIlZTVPx1ED1f1v2dwHuUc_sfVBdisKsvmJnoGIVPL8nlZM_rprCV3hnCBn34n9omA2yC2iRSH4g8SBYVuSNRY4eYEaPWHC8CTIoR4Ep2YT9_1Zzqw"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/90 via-transparent to-transparent opacity-80"></div>
+<div class="absolute bottom-0 left-0 p-10 w-full flex justify-between items-end">
+<div>
+<span class="text-tertiary-fixed-dim text-xs font-bold tracking-widest uppercase mb-2 block">Estructura Metálica</span>
+<h3 class="text-3xl font-black text-white uppercase tracking-tight">Planta de Almacenamiento Sur</h3>
+<div class="flex gap-4 mt-4">
+<div class="text-white/70 text-[0.7rem] uppercase tracking-wider">
+<span class="block font-bold text-white">Ubicación</span>
+                                        Lima, Perú
+                                    </div>
+<div class="text-white/70 text-[0.7rem] uppercase tracking-wider">
+<span class="block font-bold text-white">Año</span>
+                                        2023
+                                    </div>
+<div class="text-white/70 text-[0.7rem] uppercase tracking-wider">
+<span class="block font-bold text-white">Área</span>
+                                        12,500 m2
+                                    </div>
+</div>
+</div>
+<span class="material-symbols-outlined text-white text-4xl font-light">arrow_outward</span>
+</div>
+</div>
+<!-- Side Card 2 -->
+<div class="md:col-span-4 group relative overflow-hidden bg-surface-container-low h-[500px]">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="High-rise corporate building facade with reflective blue glass and aluminum frames during late afternoon" src="https://lh3.googleusercontent.com/aida-public/AB6AXuADE6eaEHNeCtx-eLMLwpw7ytF3fALZUm114lKOSgtC9eRKNpIaIiUT2qPf2J8FzmxC94CnpYLu8o4PhszEfUJHKGhZ7J5yucgWpkLM1qRFmYdmVoBAtFKywOexXAX4aS_PUZSAEI1XB6qn-h0cW4s2-wBuErdM_38CdLyxttBJid0TAC8nl36vQSUmWtjmd-_x0UN3Ml97p__GgjpOWLgTEHRetxasZBMPY4QleG_fGe4Xu8GA2vuvLiNL417tdNYPsEwpMMG_eMc"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/90 via-transparent to-transparent opacity-80"></div>
+<div class="absolute bottom-0 left-0 p-8 w-full">
+<span class="text-tertiary-fixed-dim text-xs font-bold tracking-widest uppercase mb-2 block">Vidrio y Aluminio</span>
+<h3 class="text-xl font-black text-white uppercase tracking-tight mb-4">Edificio Corporativo Vidriado</h3>
+<div class="flex gap-4">
+<div class="text-white/70 text-[0.65rem] uppercase font-medium">Lima · 2022 · 4,200 m2</div>
+</div>
+</div>
+</div>
+<!-- Row 2 -->
+<div class="md:col-span-4 group relative overflow-hidden bg-surface-container-low h-[400px]">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Detailed view of industrial pipes and structural steel painted with specialized yellow protective coating" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCPg8tTs52mfZBo7DCdb4CxGQEyAydnnXmO-CNGmKl9wbk_1cGvTJN3JCq1G4U7mPxaWAZ7YGdUHNDpCWGewK0YysQzyRWUMGRpAjHT1WlD9toK3VOzBQfjYwDUsudehco-CIzhpT9ahLua2pgBaqVTXGDUDOqIGyA3q29TrjpMnfpV1AwyKrLCxcBwBRek8jo6RzCFv_hLr4LdqV9P57tRj1R7I0tvSNq0J6Js3nJ5mIRL5q9tYrMJ0I7lTnpdOv3ZykzCmKgHCc4"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/90 via-transparent to-transparent opacity-80"></div>
+<div class="absolute bottom-0 left-0 p-8 w-full">
+<span class="text-tertiary-fixed-dim text-xs font-bold tracking-widest uppercase mb-2 block">Pintura Industrial</span>
+<h3 class="text-xl font-black text-white uppercase tracking-tight">Nave Industrial Allemant</h3>
+<div class="text-white/70 text-[0.65rem] uppercase font-medium mt-2">Arequipa · 2023 · 8,900 m2</div>
+</div>
+</div>
+<div class="md:col-span-4 group relative overflow-hidden bg-surface-container-low h-[400px]">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Interior of a clean technical server room with raised flooring and specialized panels" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAL1JXEkdCJxRDXYrmwbVc2iIJEbBDbaNLJE8dVbSOhlsV80sBCChfInNDqpgk3RNbZhZ0iJaiDUFoxygWn2MsQ_zSaHBZpt4GFDhNVkMWXD15223ZtRlewcAJ18NwwJy2JIdKMqkZXntQdOgrFLrd1eAilfZr-HHkt0PV5JNVWhEZTZNy04z8Ln6Z4xGEa6XUrUcWzG12OaCb57P0nYpxL-K_SI698OFy05D9ZqPjnt6gUig-AlLcf6nQS7i5lmnErtjproU-zJUs"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/90 via-transparent to-transparent opacity-80"></div>
+<div class="absolute bottom-0 left-0 p-8 w-full">
+<span class="text-tertiary-fixed-dim text-xs font-bold tracking-widest uppercase mb-2 block">Pisos Técnicos</span>
+<h3 class="text-xl font-black text-white uppercase tracking-tight">Data Center Nacional</h3>
+<div class="text-white/70 text-[0.65rem] uppercase font-medium mt-2">Lima · 2021 · 1,500 m2</div>
+</div>
+</div>
+<div class="md:col-span-4 group relative overflow-hidden bg-surface-container-low h-[400px]">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Civil engineering site with reinforced concrete pillars and scaffolding in a structured grid" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBzewR3I12MtCcBPlpHhAW_7o6uH7lIUjq3VvqNl0lP-VWDyv9AIXka92qGr8BNGp1gZW87ovo6UHKR_Omd5Dat4QOSN3RlVmTPnaD5tv1K4eqsa04H5F6u6AfMvgSNFNjjpTiOSKpDLMkMqvQHUO21NQWTCoVfBDd3Asuaj8rgRj7xqjLaBqsPlS_iepb3PyR7rNwa3gj--iuupsyyAu04hzxq8WwDkyEvToOC4zUAcndzTl17lhThsEbxIg5_SyDET0iUdMzYuiQ"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/90 via-transparent to-transparent opacity-80"></div>
+<div class="absolute bottom-0 left-0 p-8 w-full">
+<span class="text-tertiary-fixed-dim text-xs font-bold tracking-widest uppercase mb-2 block">Obras Civiles</span>
+<h3 class="text-xl font-black text-white uppercase tracking-tight">Puente Industrial Norte</h3>
+<div class="text-white/70 text-[0.65rem] uppercase font-medium mt-2">Piura · 2024 · 320 m</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- CTA Section (Industrial Feel) -->
+<section class="bg-surface-container-low py-24 px-8 border-y border-outline-variant/10">
+<div class="container mx-auto flex flex-col md:flex-row items-center justify-between gap-12">
+<div class="max-w-2xl">
+<h2 class="text-4xl font-black uppercase tracking-tighter leading-none mb-4">¿Tienes un proyecto en mente?</h2>
+<p class="text-lg text-secondary leading-relaxed">Nuestro equipo de ingenieros está listo para transformar sus planos en estructuras sólidas y seguras.</p>
+</div>
+<button class="group flex items-center gap-4 bg-tertiary-fixed-dim text-on-tertiary-fixed px-10 py-5 rounded-lg font-black uppercase tracking-widest hover:bg-on-tertiary-container transition-all">
+                    Iniciar Cotización
+                    <span class="material-symbols-outlined group-hover:translate-x-2 transition-transform">trending_flat</span>
+</button>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-slate-900 dark:bg-black w-full py-12 flex flex-col md:flex-row justify-between items-center px-12 gap-6 font-['Inter'] text-sm tracking-wide text-slate-100">
+<div class="flex flex-col gap-2">
+<div class="text-lg font-bold text-amber-400">Allemant Structural</div>
+<p class="text-slate-400 max-w-xs leading-tight">© 2024 Allemant Structural. Excelencia en Ingeniería y Construcción.</p>
+</div>
+<nav class="flex gap-8">
+<a class="text-slate-400 hover:text-white transition-colors" href="#">Privacidad</a>
+<a class="text-slate-400 hover:text-white transition-colors" href="#">Términos de Servicio</a>
+<a class="text-slate-400 hover:text-white transition-colors" href="#">Certificaciones ISO</a>
+<a class="text-slate-400 hover:text-white transition-colors" href="#">Portal de Contratistas</a>
+</nav>
+<div class="flex gap-4 opacity-80 hover:opacity-100 transition-opacity">
+<div class="w-10 h-10 rounded-lg bg-slate-800 flex items-center justify-center cursor-pointer hover:bg-slate-700 transition-colors">
+<span class="material-symbols-outlined text-slate-100">share</span>
+</div>
+<div class="w-10 h-10 rounded-lg bg-slate-800 flex items-center justify-center cursor-pointer hover:bg-slate-700 transition-colors">
+<span class="material-symbols-outlined text-slate-100">mail</span>
+</div>
+</div>
+</footer>
+</body></html>
