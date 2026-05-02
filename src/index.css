@@ -1,3 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #dc2626;
+  --color-primary-dark: #b91c1c;
+  --color-azulino: #001a2e;
+  --color-azulino-light: #002542;
+  --color-azulino-muted: #abc9ef;
+  --color-accent: #dc2626;
+  --color-gold: #ffba48;
+  --color-secondary: #545f72;
+  --font-sans: "Inter", sans-serif;
+  --font-heading: "Outfit", sans-serif;
+  --font-headline: "Work Sans", sans-serif;
+}
+
 /* Colors - JVT Corporate Identity */
 :root {
   --color-primary: #dc2626;       /* Industrial Red for Emphasis */
