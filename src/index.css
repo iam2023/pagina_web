@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 /* Colors - JVT Corporate Identity */
 :root {
   --color-primary: #dc2626;       /* Industrial Red for Emphasis */

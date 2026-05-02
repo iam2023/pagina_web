@@ -26,10 +26,10 @@ function App() {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    // La página de carga durará 4.5 segundos antes de desvanecerse para tener tiempo de apreciarla
+    // La página de carga durará 1.5 segundos para un acceso más ágil
     const timer = setTimeout(() => {
       setIsLoading(false);
-    }, 4500);
+    }, 1500);
     return () => clearTimeout(timer);
   }, []);
 
