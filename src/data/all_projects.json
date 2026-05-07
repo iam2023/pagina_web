@@ -1,0 +1,71 @@
+[
+  {
+    "id": "#JVT-091",
+    "title": "Planta de Almacenamiento Sur",
+    "category": "Estructura Metálica",
+    "image": "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&q=80&w=1200",
+    "images": [
+      "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&q=80&w=1200",
+      "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&q=80&w=1200",
+      "https://images.unsplash.com/photo-1513828583688-c52646db42da?auto=format&fit=crop&q=80&w=1200"
+    ],
+    "location": "Lima, Perú",
+    "year": "2023",
+    "area": "12,500 m2",
+    "description": "Ejecución integral de estructura metálica para nave industrial de alta complejidad, incluyendo sistemas de soporte de gran luz y cerramientos técnicos."
+  },
+  {
+    "id": "#JVT-042",
+    "title": "Edificio Corporativo Vidriado",
+    "category": "Vidrio y Aluminio",
+    "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=1200",
+    "images": [
+      "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=1200",
+      "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=1200"
+    ],
+    "location": "Lima, Perú",
+    "year": "2022",
+    "area": "4,200 m2",
+    "description": "Instalación de muro cortina y sistemas de carpintería de aluminio de alta eficiencia térmica para sede corporativa de primer nivel."
+  },
+  {
+    "id": "#JVT-118",
+    "title": "Nave Industrial Allemant",
+    "category": "Pintura Industrial",
+    "image": "https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&q=80&w=1200",
+    "images": [
+      "https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&q=80&w=1200",
+      "https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&q=80&w=1200"
+    ],
+    "location": "Arequipa, Perú",
+    "year": "2023",
+    "area": "8,900 m2",
+    "description": "Recubrimiento técnico con pintura epóxica de alta resistencia para ambientes corrosivos, garantizando durabilidad y cumplimiento de normas de seguridad."
+  },
+  {
+    "id": "#JVT-007",
+    "title": "Data Center Nacional",
+    "category": "Pisos Técnicos",
+    "image": "https://images.unsplash.com/photo-1741105820127-97dd1aaafe87?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "images": [
+      "https://images.unsplash.com/photo-1741105820127-97dd1aaafe87?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    ],
+    "location": "Lima, Perú",
+    "year": "2021",
+    "area": "1,500 m2",
+    "description": "Instalación de sistema de piso técnico elevado para centro de datos, permitiendo una gestión eficiente de cableado y refrigeración."
+  },
+  {
+    "id": "#JVT-204",
+    "title": "Puente Industrial Norte",
+    "category": "Obras Civiles",
+    "image": "https://plus.unsplash.com/premium_photo-1683133900434-8acceef1e4c0?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "images": [
+      "https://plus.unsplash.com/premium_photo-1683133900434-8acceef1e4c0?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    ],
+    "location": "Piura, Perú",
+    "year": "2024",
+    "area": "320 m",
+    "description": "Construcción de infraestructura civil crítica para el sector industrial, con enfoque en resistencia estructural y tiempos de ejecución optimizados."
+  }
+]

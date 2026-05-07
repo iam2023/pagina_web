@@ -12,6 +12,7 @@ import {
   LayoutGrid,
   Home
 } from 'lucide-react';
+import { Link } from 'react-router-dom';
 import SEO from '../components/SEO';
 import ServiceCard from '../components/cards/ServiceCard';
 import ProjectCard from '../components/cards/ProjectCard';
@@ -125,11 +126,41 @@ const ServicesPage = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {projectsData.map((project, idx) => (
-              <ProjectCard key={idx} {...project} />
-            ))}
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 auto-rows-[400px]">
+            {projectsData.map((project, idx) => {
+              // Create a bento grid effect by assigning different spans to specific indexes
+              const isLarge = idx === 0 || idx === 5;
+              const gridClass = isLarge ? "md:col-span-2" : "md:col-span-1";
+              
+              return (
+                <ProjectCard 
+                  key={idx} 
+                  {...project} 
+                  className={gridClass}
+                />
+              );
+            })}
           </div>
+
+          {/* "Ver más proyectos" Button */}
+          <motion.div 
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="mt-20 flex justify-center"
+          >
+            <Link 
+              to="/proyectos" 
+              className="group relative px-12 py-5 bg-azulino text-white font-black text-[11px] tracking-[0.4em] uppercase rounded-sm overflow-hidden transition-all hover:bg-primary"
+            >
+              <span className="relative z-10 flex items-center gap-4">
+                Ver más proyectos
+                <div className="w-8 h-[1px] bg-white group-hover:w-12 transition-all"></div>
+              </span>
+              {/* Animated industrial background element */}
+              <div className="absolute top-0 left-0 w-full h-full bg-white/5 transform -skew-x-12 -translate-x-full group-hover:translate-x-full transition-transform duration-1000"></div>
+            </Link>
+          </motion.div>
         </div>
       </section>
 

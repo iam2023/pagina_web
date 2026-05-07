@@ -1,9 +1,25 @@
-import { motion } from 'framer-motion';
+import { motion, useInView, animate, useMotionValue, useTransform } from 'framer-motion';
+import { useRef, useEffect } from 'react';
 import { Users, Shield, Trophy, CheckCircle2, Award, Settings, HeartPulse, UserCheck, MapPin, ArrowRight } from 'lucide-react';
 import AboutHeader from '../components/About'; 
 import Clients from '../components/Clients';
 import LocationSection from '../components/LocationSection';
 import SEO from '../components/SEO';
+
+const Counter = ({ value, duration = 2, suffix = "" }) => {
+  const count = useMotionValue(0);
+  const rounded = useTransform(count, (latest) => Math.round(latest));
+  const ref = useRef(null);
+  const inView = useInView(ref, { once: true, margin: "-100px" });
+
+  useEffect(() => {
+    if (inView) {
+      animate(count, value, { duration: duration, ease: "easeOut" });
+    }
+  }, [inView, count, value, duration]);
+
+  return <motion.span ref={ref}>{rounded}</motion.span>;
+};
 
 const AboutPage = () => {
   return (
@@ -98,7 +114,9 @@ const AboutPage = () => {
                 transition={{ delay: 0.3 }}
                 className="absolute -bottom-10 -left-10 bg-azulino p-10 text-white rounded-2xl shadow-2xl border border-white/10"
               >
-                <div className="text-5xl font-black mb-1 text-primary">12+</div>
+                <div className="text-5xl font-black mb-1 text-primary">
+                  <Counter value={12} />+
+                </div>
                 <div className="text-[10px] uppercase tracking-[0.3em] font-black text-white/60">Años de Experticia</div>
               </motion.div>
 
@@ -114,19 +132,25 @@ const AboutPage = () => {
         <div className="container mx-auto px-8">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-16 md:gap-8">
             <div className="flex flex-col items-center text-center gap-3">
-              <div className="text-5xl lg:text-7xl font-black text-[#ffba48] font-['Outfit']">12+</div>
+              <div className="text-5xl lg:text-7xl font-black text-[#ffba48] font-['Outfit']">
+                <Counter value={12} />+
+              </div>
               <div className="text-[10px] font-black uppercase tracking-[0.4em] text-white/90">
                 Años de Experiencia
               </div>
             </div>
             <div className="flex flex-col items-center text-center gap-3">
-              <div className="text-5xl lg:text-7xl font-black text-[#ffba48] font-['Outfit']">500+</div>
+              <div className="text-5xl lg:text-7xl font-black text-[#ffba48] font-['Outfit']">
+                <Counter value={500} />+
+              </div>
               <div className="text-[10px] font-black uppercase tracking-[0.4em] text-white/90">
                 Proyectos Ejecutados
               </div>
             </div>
             <div className="flex flex-col items-center text-center gap-3">
-              <div className="text-5xl lg:text-7xl font-black text-[#ffba48] font-['Outfit']">100%</div>
+              <div className="text-5xl lg:text-7xl font-black text-[#ffba48] font-['Outfit']">
+                <Counter value={100} />%
+              </div>
               <div className="text-[10px] font-black uppercase tracking-[0.4em] text-white/90">
                 Compromiso con la Seguridad
               </div>
