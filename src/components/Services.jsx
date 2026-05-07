@@ -23,7 +23,7 @@ const servicesList = [
   },
   { 
     icon: <Grid size={32} />, 
-    title: 'Vidrio & Aluminio', 
+    title: 'Obras Civiles', 
     id: 'glass', 
     desc: 'Muros cortina y cerramientos técnicos de eficiencia térmica.', 
     img: '/images/servicios/vidrio.webp',

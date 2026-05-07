@@ -37,9 +37,9 @@ const AboutPage = () => {
             <span className="inline-block px-3 py-1 bg-[#ffba48] text-[#291800] text-[0.7rem] font-bold tracking-[0.1em] uppercase mb-6 rounded-sm">
               SOBRE NOSOTROS
             </span>
-            <h1 className="text-5xl md:text-7xl font-black text-white leading-[1.1] tracking-tighter mb-8 uppercase font-headline">
+            <h2 className="text-5xl md:text-5xl font-black text-white leading-[1.1] tracking-tighter mb-8 uppercase font-headline">
               Nuestra Trayectoria <br /> en la <span className="text-primary">Ingeniería Estructural</span>
-            </h1>
+            </h2>
             <p className="text-xl text-white/80 max-w-2xl font-light leading-relaxed border-l-4 border-[#abc9ef] pl-6">
               Forjamos el futuro del Perú a través de soluciones metálicas de alta precisión y seguridad garantizada, impulsando el desarrollo industrial.
             </p>
@@ -57,12 +57,12 @@ const AboutPage = () => {
               viewport={{ once: true }}
               className="space-y-8"
             >
-              <h2 className="text-4xl font-black text-primary uppercase tracking-tighter leading-tight font-headline">
-                Cimentando el Éxito por más de una década
+              <h2 className="text-2xl font-black text-primary uppercase tracking-tighter leading-tight font-headline">
+                Trayectoria que construye confianza
               </h2>
               <div className="space-y-6 text-lg text-gray-600 leading-relaxed">
                 <p>
-                  Con el respaldo de 12 años de experiencia como <span className="font-bold text-primary">JTV Servicios Generales S.A.C.</span>, hoy evolucionamos para liderar el sector de la ingeniería y construcción metálica.
+                  Con el respaldo de 12 años de experiencia como <span className="font-bold text-primary">JTV Servicios Generales S.A.C.</span>, hoy evolucionamos para liderar el sector de la ingeniería y la construcción metálica.
                 </p>
                 <p>
                   Nuestra trayectoria se ha definido por un compromiso inquebrantable con la calidad técnica y la seguridad industrial. Cada estructura que fabricamos es el resultado de un análisis riguroso y la aplicación de las normativas internacionales más exigentes.

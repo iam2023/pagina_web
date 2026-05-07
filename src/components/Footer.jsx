@@ -18,7 +18,7 @@ const Footer = () => {
               <div className="w-12 h-12 bg-primary flex items-center justify-center font-black text-azulino text-xl">JTV</div>
               <div>
                 <div className="text-xs font-black tracking-[0.3em] opacity-40 uppercase">Servicios Generales</div>
-                <div className="text-xl font-black tracking-tighter uppercase font-headline">Grupo JTV</div>
+                <div className="text-xl font-black tracking-tighter uppercase font-headline">JTV</div>
               </div>
             </div>
             <p className="text-white/40 text-sm leading-relaxed font-medium">
@@ -67,7 +67,7 @@ const Footer = () => {
                 <MapPin className="text-primary" size={20} />
                 <div>
                   <div className="text-[10px] font-black uppercase opacity-30 mb-1">Dirección Principal</div>
-                  <div className="text-sm font-bold text-white uppercase tracking-wider">Lima, Perú</div>
+                  <div className="text-sm font-bold text-white uppercase tracking-wider">Mza:1 Lt. 3 P.J. Virgen de Lourdes, Villa María Del Triunfo, Lima – Perú</div>
                   <div className="text-[9px] font-bold text-white/30 uppercase mt-1">Sede VMT - Operaciones Nacionales</div>
                 </div>
               </div>

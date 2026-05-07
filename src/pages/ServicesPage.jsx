@@ -85,7 +85,7 @@ const ServicesPage = () => {
               </h2>
             </div>
             <div className="text-right flex flex-col items-end opacity-20">
-              <span className="text-6xl font-black text-azulino-light font-heading leading-none">2024</span>
+              <span className="text-6xl font-black text-azulino-light font-heading leading-none">2026</span>
             </div>
           </div>
         </div>

@@ -35,9 +35,7 @@ const ServiceCard = ({
           <div className="max-w-xl">
             <h3 className="text-4xl font-black text-white uppercase tracking-tighter mb-4 font-heading">{title}</h3>
             <p className="text-white/80 text-sm mb-8 leading-relaxed font-semibold">{description}</p>
-            <button className="flex items-center gap-3 text-primary font-black uppercase text-[10px] tracking-[0.4em] hover:translate-x-2 transition-transform">
-              VER ESPECIFICACIONES <ArrowRight size={18} />
-            </button>
+            
           </div>
         </div>
       </motion.div>

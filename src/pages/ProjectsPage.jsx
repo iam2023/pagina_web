@@ -96,7 +96,7 @@ const ProjectsPage = () => {
             <span className="inline-block px-3 py-1 bg-[#ffba48] text-[#291800] text-[0.7rem] font-bold tracking-[0.1em] uppercase mb-6 rounded-sm">
               JTV SERVICIOS GENERALES SAC
             </span>
-            <h1 className="text-5xl md:text-7xl font-black text-white leading-tight tracking-tighter mb-6 uppercase font-headline">
+            <h1 className="text-5xl md:text-5xl font-black text-white leading-tight tracking-tighter mb-6 uppercase font-headline">
               Portafolio de <span className="text-primary">Proyectos de Ingeniería</span>
             </h1>
             <p className="text-xl text-white/80 max-w-xl font-light leading-relaxed">

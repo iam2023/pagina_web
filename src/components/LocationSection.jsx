@@ -27,7 +27,7 @@ const LocationSection = () => {
               <div className="bg-white/5 p-8 rounded-sm border-l-2 border-primary">
                 <h4 className="text-white font-black uppercase text-[10px] tracking-widest mb-4 opacity-50">Dirección Administrativa</h4>
                 <p className="text-white text-xl leading-relaxed font-light">
-                  Mza. H Lt. 2 P.J. Virgen de Lourdes <br />
+                  Mza:1 Lt. 3 P.J. Virgen de Lourdes <br />
                   Villa María Del Triunfo, Lima – Perú
                 </p>
               </div>

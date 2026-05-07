@@ -48,7 +48,7 @@ const Navbar = () => {
             <span className="text-white font-bold text-xl font-heading">JTV</span>
           </motion.div>
           <span className={`font-bold tracking-tighter text-xl font-heading hidden sm:block ${logoTextColor}`}>
-             JTV SERVICES
+             JTV SERVICIOS GENERALES
           </span>
         </Link>
 

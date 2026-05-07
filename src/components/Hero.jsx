@@ -38,10 +38,10 @@ const Hero = () => {
             </span>
             <h1 className="text-5xl md:text-8xl font-black mb-6 leading-[0.9]" style={{ color: '#ffffff', textShadow: '0 4px 10px rgba(0,0,0,0.6)' }}>
               INGENIERÍA <br />
-              <span className="text-primary">DE PRECISIÓN.</span>
+              <span className="text-primary">DE PRECISIÓN</span>
             </h1>
             <p className="text-lg mb-10 max-w-xl leading-relaxed" style={{ color: '#e5e7eb', textShadow: '0 2px 4px rgba(0,0,0,0.5)' }}>
-              JVT SERVICIOS GENERALES SAC: Transformamos desafíos industriales en soluciones
+              JTV SERVICIOS GENERALES SAC: Transformamos desafíos industriales en soluciones
               de infraestructura resilientes y sostenibles.
             </p>
 
