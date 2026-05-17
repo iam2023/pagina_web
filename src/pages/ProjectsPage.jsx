@@ -183,7 +183,7 @@ const ProjectsPage = () => {
             transition={{ duration: 0.8 }}
             className="max-w-3xl"
           >
-            <span className="inline-block px-3 py-1 bg-[#ffba48] text-[#291800] text-[0.7rem] font-bold tracking-[0.1em] uppercase mb-6 rounded-sm">
+            <span className="inline-block px-3 py-1 bg-primary text-white text-[0.7rem] font-bold tracking-[0.1em] uppercase mb-6 rounded-sm">
               JTV SERVICIOS GENERALES SAC
             </span>
             <h1 className="text-5xl md:text-5xl font-black text-white leading-tight tracking-tighter mb-6 uppercase font-headline">
@@ -248,7 +248,7 @@ const ProjectsPage = () => {
 
                     <div className="absolute bottom-0 left-0 p-10 w-full flex justify-between items-end">
                       <div>
-                        <span className="text-gold text-[10px] font-bold tracking-[0.3em] uppercase mb-2 block">{project.category}</span>
+                        <span className="text-primary text-[10px] font-bold tracking-[0.3em] uppercase mb-2 block">{project.category}</span>
                         <h3 className={`font-black text-white uppercase tracking-tight font-headline ${isLarge ? "text-3xl" : "text-xl"}`}>{project.title}</h3>
                         <div className="flex gap-4 mt-4 opacity-0 group-hover:opacity-100 transform translate-y-4 group-hover:translate-y-0 transition-all duration-500">
                           <div className="text-white/70 text-[0.7rem] uppercase tracking-wider">

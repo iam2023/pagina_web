@@ -14,7 +14,7 @@
   --color-azulino-muted: #abc9ef; /* Brand Blue - Light/Muted */
   
   --color-accent-red: #dc2626;    /* Same as primary, used as accent */
-  --color-gold: #ffba48;          /* High contrast highlight */
+  --color-gold: #dc2626;          /* Unified with primary red */
   
   --color-text: #212529;
   --color-text-muted: #6C757D;

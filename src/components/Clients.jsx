@@ -59,7 +59,6 @@ const Clients = () => {
       </div>
       
       <style>{`
-        .text-primary { color: #ffba48; }
         .text-azulino { color: #001a2e; }
         .font-headline { font-family: 'Outfit', sans-serif; }
       `}</style>

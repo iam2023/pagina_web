@@ -29,7 +29,7 @@ const BlogPage = () => {
         </div>
         <div className="container mx-auto px-8 relative z-10">
           <motion.div initial={{ x: -30, opacity: 0 }} animate={{ x: 0, opacity: 1 }} className="max-w-2xl">
-            <span className="bg-[#ffba48] text-[#001c3d] text-[10px] font-black uppercase tracking-[0.2em] py-1 px-3 mb-6 inline-block">
+            <span className="bg-[#dc2626] text-white text-[10px] font-black uppercase tracking-[0.2em] py-1 px-3 mb-6 inline-block">
               CONOCIMIENTO DE INGENIERÍA
             </span>
             <h1 className="text-6xl md:text-8xl font-black text-white leading-[0.9] tracking-tighter mb-6 font-headline uppercase">
@@ -89,7 +89,7 @@ const BlogCard = ({ post, index }) => (
         className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-1000"
         loading="lazy"
       />
-      <div className="absolute top-4 left-4 bg-[#ffba48] text-[#001c3d] text-[10px] font-black uppercase tracking-[0.15em] py-1 px-4 shadow-lg">
+      <div className="absolute top-4 left-4 bg-[#dc2626] text-white text-[10px] font-black uppercase tracking-[0.15em] py-1 px-4 shadow-lg">
         {post.category}
       </div>
     </div>

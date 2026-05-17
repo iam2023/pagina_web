@@ -59,7 +59,7 @@ const ServicesPage = () => {
             animate={{ y: 0, opacity: 1 }}
             className="max-w-4xl"
           >
-            <span className="inline-block text-gold text-[10px] font-black tracking-[0.5em] uppercase mb-6 border-l-2 border-gold pl-4">
+            <span className="inline-block text-primary text-[10px] font-black tracking-[0.5em] uppercase mb-6 border-l-2 border-primary pl-4">
               CAPACIDAD TÉCNICA E INDUSTRIAL
             </span>
             <h1 className="text-5xl md:text-7xl font-black text-white leading-[0.9] tracking-tighter mb-8 uppercase font-heading">
@@ -78,7 +78,7 @@ const ServicesPage = () => {
           <div className="flex flex-col md:flex-row md:items-end justify-between items-start gap-12">
             <div className="max-w-2xl relative">
               <div className="flex items-center gap-4 mb-4">
-                <div className="w-12 h-1 bg-gold"></div>
+                <div className="w-12 h-1 bg-primary"></div>
                 <span className="text-[10px] font-black tracking-[0.5em] text-azulino-light/40 uppercase">Estandares Globales</span>
               </div>
               <h2 className="text-4xl md:text-5xl font-black text-azulino-light uppercase tracking-[-0.04em] font-heading">

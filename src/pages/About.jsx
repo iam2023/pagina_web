@@ -50,7 +50,7 @@ const AboutPage = () => {
             transition={{ duration: 0.8 }}
             className="max-w-4xl"
           >
-            <span className="inline-block px-3 py-1 bg-[#ffba48] text-[#291800] text-[0.7rem] font-bold tracking-[0.1em] uppercase mb-6 rounded-sm">
+            <span className="inline-block px-3 py-1 bg-primary text-white text-[0.7rem] font-bold tracking-[0.1em] uppercase mb-6 rounded-sm">
               SOBRE NOSOTROS
             </span>
             <h2 className="text-5xl md:text-5xl font-black text-white leading-[1.1] tracking-tighter mb-8 uppercase font-headline">
@@ -132,7 +132,7 @@ const AboutPage = () => {
         <div className="container mx-auto px-8">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-16 md:gap-8">
             <div className="flex flex-col items-center text-center gap-3">
-              <div className="text-5xl lg:text-7xl font-black text-[#ffba48] font-['Outfit']">
+              <div className="text-5xl lg:text-7xl font-black text-primary font-['Outfit']">
                 <Counter value={12} />+
               </div>
               <div className="text-[10px] font-black uppercase tracking-[0.4em] text-white/90">
@@ -140,7 +140,7 @@ const AboutPage = () => {
               </div>
             </div>
             <div className="flex flex-col items-center text-center gap-3">
-              <div className="text-5xl lg:text-7xl font-black text-[#ffba48] font-['Outfit']">
+              <div className="text-5xl lg:text-7xl font-black text-primary font-['Outfit']">
                 <Counter value={500} />+
               </div>
               <div className="text-[10px] font-black uppercase tracking-[0.4em] text-white/90">
@@ -148,7 +148,7 @@ const AboutPage = () => {
               </div>
             </div>
             <div className="flex flex-col items-center text-center gap-3">
-              <div className="text-5xl lg:text-7xl font-black text-[#ffba48] font-['Outfit']">
+              <div className="text-5xl lg:text-7xl font-black text-primary font-['Outfit']">
                 <Counter value={100} />%
               </div>
               <div className="text-[10px] font-black uppercase tracking-[0.4em] text-white/90">
