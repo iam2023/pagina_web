@@ -13,8 +13,8 @@ const Clients = () => {
           viewport={{ once: true }}
           className="text-center mb-16 px-8"
         >
-          <span className="text-primary font-bold tracking-[0.3em] uppercase text-xs mb-4 block font-headline">ELLOS NOS RESPALDAN</span>
-          <h2 className="text-4xl font-black text-azulino font-headline">Nuestros clientes confían en nosotros</h2>
+          <span className="text-primary font-bold tracking-[0.3em] uppercase text-xs mb-4 block font-heading">ELLOS NOS RESPALDAN</span>
+          <h2 className="text-4xl font-black text-azulino font-heading">Nuestros clientes confían en nosotros</h2>
         </motion.div>
 
         {/* Infinite Slider */}
@@ -57,11 +57,6 @@ const Clients = () => {
           <div className="absolute inset-y-0 right-0 w-32 bg-gradient-to-l from-white to-transparent z-10"></div>
         </div>
       </div>
-      
-      <style>{`
-        .text-azulino { color: #001a2e; }
-        .font-headline { font-family: 'Outfit', sans-serif; }
-      `}</style>
     </section>
   );
 };

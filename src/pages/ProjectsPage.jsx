@@ -16,6 +16,15 @@ const categories = [
 const ProjectModal = ({ project, onClose }) => {
   const [currentImg, setCurrentImg] = useState(0);
 
+  // Escucha el evento de teclado para cerrar con Escape
+  useEffect(() => {
+    const handleKeyDown = (e) => {
+      if (e.key === 'Escape') onClose();
+    };
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [onClose]);
+
   if (!project) return null;
 
   return (
@@ -37,6 +46,7 @@ const ProjectModal = ({ project, onClose }) => {
         {/* Close Button */}
         <button 
           onClick={onClose}
+          aria-label="Cerrar modal de proyecto"
           className="absolute top-6 right-6 z-50 p-2 bg-azulino text-white rounded-full hover:bg-primary transition-colors shadow-lg"
         >
           <X size={24} />
@@ -57,12 +67,14 @@ const ProjectModal = ({ project, onClose }) => {
             <>
               <button 
                 onClick={() => setCurrentImg(prev => (prev === 0 ? project.images.length - 1 : prev - 1))}
+                aria-label="Imagen anterior"
                 className="absolute left-4 top-1/2 -translate-y-1/2 p-3 bg-black/50 text-white rounded-full opacity-0 group-hover:opacity-100 transition-opacity hover:bg-primary"
               >
                 <ChevronLeft size={20} />
               </button>
               <button 
                 onClick={() => setCurrentImg(prev => (prev === project.images.length - 1 ? 0 : prev + 1))}
+                aria-label="Siguiente imagen"
                 className="absolute right-4 top-1/2 -translate-y-1/2 p-3 bg-black/50 text-white rounded-full opacity-0 group-hover:opacity-100 transition-opacity hover:bg-primary"
               >
                 <ChevronRight size={20} />
@@ -126,7 +138,14 @@ const ProjectModal = ({ project, onClose }) => {
             </div>
           </div>
 
-          <button className="mt-12 w-full py-5 bg-azulino text-white font-black text-[10px] tracking-[0.3em] uppercase hover:bg-primary transition-all flex items-center justify-center gap-4">
+          <button 
+            onClick={() => {
+              const msg = `¡Hola! Me gustaría solicitar información técnica detallada sobre el proyecto: *${project.title}* (Categoría: ${project.category}) ubicado en ${project.location}.`;
+              const url = `https://wa.me/51951336142?text=${encodeURIComponent(msg)}`;
+              window.open(url, '_blank', 'noopener,noreferrer');
+            }}
+            className="mt-12 w-full py-5 bg-azulino text-white font-black text-[10px] tracking-[0.3em] uppercase hover:bg-primary transition-all flex items-center justify-center gap-4"
+          >
             Solicitar Información Técnica
             <MoveRight size={16} />
           </button>
@@ -294,10 +313,15 @@ const ProjectsPage = () => {
             <h2 className="text-4xl font-black uppercase tracking-tighter leading-none mb-4 font-headline">¿Tienes un proyecto en mente?</h2>
             <p className="text-lg text-gray-500 leading-relaxed">Nuestro equipo de ingenieros está listo para transformar sus planos en estructuras sólidas y seguras.</p>
           </div>
-          <button className="group flex items-center gap-4 bg-primary text-white px-10 py-5 rounded-sm font-black uppercase tracking-widest hover:bg-primary-dark transition-all">
+          <a 
+            href="https://wa.me/51951336142?text=%C2%A1Hola%21%20Estoy%20interesado%20en%20iniciar%20una%20cotizaci%C3%B3n%20para%20un%20proyecto%20industrial%20con%20JTV%20Servicios%20Generales."
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group flex items-center gap-4 bg-primary text-white px-10 py-5 rounded-sm font-black uppercase tracking-widest hover:bg-primary-dark transition-all"
+          >
             Iniciar Cotización
             <MoveRight className="group-hover:translate-x-2 transition-transform" />
-          </button>
+          </a>
         </div>
       </section>
     </motion.div>

@@ -20,7 +20,7 @@ const LocationSection = () => {
             </div>
             
             <h2 className="text-4xl md:text-5xl font-black text-white mb-10 leading-[0.9] uppercase tracking-tighter">
-              Nuestra <br /> <span className="text-primary font-headline">Ubicación</span>
+              Nuestra <br /> <span className="text-primary font-heading">Ubicación</span>
             </h2>
 
             <div className="space-y-8 max-w-sm">
@@ -62,10 +62,6 @@ const LocationSection = () => {
         </div>
 
       </div>
-      
-      <style dangerouslySetInnerHTML={{ __html: `
-        .font-headline { font-family: 'Outfit', sans-serif; }
-      ` }} />
     </section>
   );
 };

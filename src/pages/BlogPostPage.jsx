@@ -41,9 +41,9 @@ const BlogPostPage = () => {
           <ArrowLeft size={14} /> Volver a Noticias
         </Link>
         
-        <div className="blog-grid-main">
+        <div className="flex flex-col gap-16 lg:grid lg:grid-cols-12 lg:gap-20">
           {/* Main Article Content */}
-          <article className="blog-article-area">
+          <article className="lg:col-span-8">
             <header className="mb-12">
               <div className="flex flex-wrap items-center gap-4 text-gray-500 text-[11px] font-bold uppercase tracking-widest mb-6 border-b border-gray-100 pb-4">
                 <span className="flex items-center gap-1 text-primary"><Calendar size={16} /> {post.date}</span>
@@ -73,7 +73,7 @@ const BlogPostPage = () => {
           </article>
 
           {/* Sidebar - Recent Posts */}
-          <aside className="blog-sidebar-area">
+          <aside className="lg:col-span-4 lg:pl-12 lg:border-l lg:border-gray-100">
             <div className="sticky top-32">
               <h3 className="text-2xl font-bold text-[#334155] mb-10 font-headline">
                 Los más recientes
@@ -127,24 +127,6 @@ const BlogPostPage = () => {
           </aside>
         </div>
       </div>
-
-      <style>{`
-        .blog-grid-main { display: flex; flex-direction: column; gap: 4rem; }
-        @media (min-width: 1024px) {
-          .blog-grid-main { display: grid !important; grid-template-columns: repeat(12, 1fr) !important; gap: 5rem; }
-          .blog-article-area { grid-column: span 8 / span 8 !important; }
-          .blog-sidebar-area { grid-column: span 4 / span 4 !important; padding-left: 3rem; border-left: 1px solid #f1f5f9; }
-        }
-        .prose { color: #334155; font-size: 1.125rem; line-height: 1.8; }
-        .prose h2 { margin-top: 2.5em; margin-bottom: 1.25em; font-size: 2rem; text-transform: uppercase; letter-spacing: -0.025em; color: #002542; font-weight: 900; }
-        .prose h3 { margin-top: 2em; margin-bottom: 0.75em; font-size: 1.5rem; color: #002542; font-weight: 800; }
-        .prose p { margin-bottom: 1.75em; text-align: justify; }
-        .prose ul { padding-left: 1.5em; list-style-type: disc; margin-bottom: 1.5em; }
-        .prose li { margin-bottom: 0.75em; }
-        .prose strong { color: #002542; font-weight: 800; }
-        .prose img { width: 100%; height: auto; border-radius: 1rem; margin: 3rem 0; box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1); }
-        .prose a { color: var(--color-primary); font-weight: 700; text-decoration: underline; text-underline-offset: 4px; }
-      `}</style>
     </motion.div>
   );
 };

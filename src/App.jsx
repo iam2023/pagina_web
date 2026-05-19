@@ -10,6 +10,7 @@ import ProjectsPage from './pages/ProjectsPage';
 import BlogPage from './pages/BlogPage';
 import BlogPostPage from './pages/BlogPostPage';
 import SplashScreen from './components/SplashScreen';
+import ErrorBoundary from './components/ErrorBoundary';
 import { useEffect, useState } from 'react';
 import { useLocation } from 'react-router-dom';
 
@@ -39,24 +40,26 @@ function App() {
         {isLoading && <SplashScreen key="splash" />}
       </AnimatePresence>
 
-      <Router>
-        <ScrollToTop />
-      <div className="bg-white min-h-screen text-text selection:bg-primary/20 selection:text-primary">
-        <Navbar />
-        <AnimatePresence mode="wait">
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/nosotros" element={<AboutPage />} />
-            <Route path="/servicios" element={<ServicesPage />} />
-            <Route path="/proyectos" element={<ProjectsPage />} />
-            <Route path="/blog" element={<BlogPage />} />
-            <Route path="/blog/:slug" element={<BlogPostPage />} />
-            <Route path="/contacto" element={<ContactPage />} />
-          </Routes>
-        </AnimatePresence>
-        <Footer />
-      </div>
-    </Router>
+      <ErrorBoundary>
+        <Router>
+          <ScrollToTop />
+          <div className="bg-white min-h-screen text-text selection:bg-primary/20 selection:text-primary">
+            <Navbar />
+            <AnimatePresence mode="wait">
+              <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/nosotros" element={<AboutPage />} />
+                <Route path="/servicios" element={<ServicesPage />} />
+                <Route path="/proyectos" element={<ProjectsPage />} />
+                <Route path="/blog" element={<BlogPage />} />
+                <Route path="/blog/:slug" element={<BlogPostPage />} />
+                <Route path="/contacto" element={<ContactPage />} />
+              </Routes>
+            </AnimatePresence>
+            <Footer />
+          </div>
+        </Router>
+      </ErrorBoundary>
     </>
   );
 }

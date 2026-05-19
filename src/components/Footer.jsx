@@ -26,13 +26,13 @@ const Footer = () => {
               comprometidos con la excelencia técnica y la seguridad ocupacional.
             </p>
             <div className="flex items-center gap-4">
-              <a href="#" className="w-10 h-10 border border-white/10 flex items-center justify-center rounded-full hover:bg-primary transition-all group">
+              <a href="#" aria-label="Visitar nuestro perfil de Facebook" className="w-10 h-10 border border-white/10 flex items-center justify-center rounded-full hover:bg-primary transition-all group">
                 <Facebook size={16} className="group-hover:text-azulino" />
               </a>
-              <a href="#" className="w-10 h-10 border border-white/10 flex items-center justify-center rounded-full hover:bg-primary transition-all group">
+              <a href="#" aria-label="Visitar nuestro perfil de Instagram" className="w-10 h-10 border border-white/10 flex items-center justify-center rounded-full hover:bg-primary transition-all group">
                 <Instagram size={16} className="group-hover:text-azulino" />
               </a>
-              <a href="#" className="w-10 h-10 border border-white/10 flex items-center justify-center rounded-full hover:bg-primary transition-all group">
+              <a href="#" aria-label="Visitar nuestro canal de YouTube" className="w-10 h-10 border border-white/10 flex items-center justify-center rounded-full hover:bg-primary transition-all group">
                 <Youtube size={16} className="group-hover:text-azulino" />
               </a>
             </div>
@@ -110,6 +110,7 @@ const Footer = () => {
         href="https://wa.me/51951336142" 
         target="_blank" 
         rel="noopener noreferrer"
+        aria-label="Contactar por WhatsApp"
         className="fixed bottom-10 right-10 z-[100] bg-[#25D366] text-white p-5 rounded-full shadow-2xl hover:scale-110 transition-transform flex items-center justify-center group"
       >
         <div className="absolute -inset-2 bg-[#25D366]/20 rounded-full animate-ping pointer-events-none"></div>

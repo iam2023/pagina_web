@@ -17,7 +17,7 @@ const Contact = () => {
     const data = new FormData(form);
     
     try {
-      const response = await fetch("https://formspree.io/f/mjgjaabk", {
+      const response = await fetch("https://formspree.io/f/meedqjno", {
         method: "POST",
         body: data,
         headers: {
@@ -155,14 +155,6 @@ const Contact = () => {
           </motion.div>
         </div>
       </div>
-
-
-
-
-      <style>{`
-        .text-primary { color: var(--color-primary); }
-        .text-text-muted { color: var(--color-text-muted); }
-      `}</style>
     </section>
   );
 };

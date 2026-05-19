@@ -61,12 +61,6 @@ const About = () => {
           </motion.div>
         </div>
       </div>
-      
-      <style>{`
-        .bg-white { background-color: var(--color-secondary); }
-        .text-primary { color: var(--color-primary); }
-        .text-text-muted { color: var(--color-text-muted); }
-      `}</style>
     </section>
   );
 };
