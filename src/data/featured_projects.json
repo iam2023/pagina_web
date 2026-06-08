@@ -1,7 +1,7 @@
 [
-  { "id": "#JVT-001", "title": "Naves Industriales", "sub": "PROYECTO PRODAC", "img": "/images/proyectos/proyecto-17.3.png" },
-  { "id": "#JVT-007", "title": "Nave Industrial 3000m2", "sub": "PAPELERA CHASQUI", "img": "/images/proyectos/proyecto-7.png" },
-  { "id": "#JVT-010", "title": "Nave Industrial 14m alt.", "sub": "GRUPO AJE", "img": "/images/proyectos/proyecto-10.png" },
-  { "id": "#JVT-006", "title": "Mallas Electrosoldadas", "sub": "PERIMETRAL", "img": "/images/proyectos/proyecto-6.png" },
-  { "id": "#JVT-009", "title": "Pintado de Racks", "sub": "WESTCO", "img": "/images/proyectos/proyecto-9.png" }
+  { "id": "#JTV-001", "title": "Naves Industriales", "sub": "PROYECTO PRODAC", "img": "/images/proyectos/proyecto-17.3.png" },
+  { "id": "#JTV-007", "title": "Nave Industrial 3000m2", "sub": "PAPELERA CHASQUI", "img": "/images/proyectos/proyecto-7.png" },
+  { "id": "#JTV-010", "title": "Nave Industrial 14m alt.", "sub": "GRUPO AJE", "img": "/images/proyectos/proyecto-10.png" },
+  { "id": "#JTV-006", "title": "Mallas Electrosoldadas", "sub": "PERIMETRAL", "img": "/images/proyectos/proyecto-6.png" },
+  { "id": "#JTV-009", "title": "Pintado de Racks", "sub": "WESTCO", "img": "/images/proyectos/proyecto-9.png" }
 ]

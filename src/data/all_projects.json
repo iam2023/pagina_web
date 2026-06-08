@@ -1,6 +1,6 @@
 [
   {
-    "id": "#JVT-001",
+    "id": "#JTV-001",
     "title": "PROYECTO PRODAC - VIGAS CARRILERAS",
     "category": "Estructura Metálica",
     "image": "/images/proyectos/proyecto-15.png",
@@ -11,7 +11,7 @@
     "description": "Fabricación e instalación de Naves industriales en Vigas H con vigas Carrileras y puente grúa. Área 1600 m2 y peso de estructuras de 50 tn."
   },
   {
-    "id": "#JVT-006",
+    "id": "#JTV-006",
     "title": "PROYECTO PERIMETRAL",
     "category": "Obras Civiles",
     "image": "/images/proyectos/proyecto-6.png",
@@ -22,7 +22,7 @@
     "description": "Fabricación e instalación de mallas electrosoldadas, con pintado al horno."
   },
   {
-    "id": "#JVT-007",
+    "id": "#JTV-007",
     "title": "PROYECTO PAPELERA CHASQUI - ALMACÉN",
     "category": "Estructura Metálica",
     "image": "/images/proyectos/proyecto-7.png",
@@ -33,7 +33,7 @@
     "description": "Cerramiento con Aluzinc de almacén con mantenimiento de techo existente."
   },
   {
-    "id": "#JVT-008",
+    "id": "#JTV-008",
     "title": "PROYECTO TECNIFAJAS",
     "category": "Estructura Metálica",
     "image": "/images/proyectos/proyecto-8.png",
@@ -44,7 +44,7 @@
     "description": "Fabricación e instalación de techo a un agua (300 m2)."
   },
   {
-    "id": "#JVT-009",
+    "id": "#JTV-009",
     "title": "PROYECTO WESTCO",
     "category": "Pintura Industrial",
     "image": "/images/proyectos/proyecto-9.png",
@@ -55,7 +55,7 @@
     "description": "Mantenimiento y pintado de estructuras de racks (400 m2)."
   },
   {
-    "id": "#JVT-010",
+    "id": "#JTV-010",
     "title": "PROYECTO GRUPO AJE",
     "category": "Estructura Metálica",
     "image": "/images/proyectos/proyecto-10.png",
@@ -66,7 +66,7 @@
     "description": "Fabricación e instalación de Nave industrial de 2000 m2 con una altura de 14 mts."
   },
   {
-    "id": "#JVT-011",
+    "id": "#JTV-011",
     "title": "PROYECTO DIMEXA - ALMACENAMIENTO",
     "category": "Pintura Industrial",
     "image": "/images/proyectos/proyecto-11.png",
@@ -77,7 +77,7 @@
     "description": "Mantenimiento de estructuras racks, pintado al horno y limpieza de estructuras para el almacenamiento en un ambiente controlado."
   },
   {
-    "id": "#JVT-012",
+    "id": "#JTV-012",
     "title": "PROYECTO WEG",
     "category": "Estructura Metálica",
     "image": "/images/proyectos/proyecto-12.png",
@@ -88,7 +88,7 @@
     "description": "Fabricación e instalación de techo metálico a un agua con cerramiento de manta. Área de 300 m2."
   },
   {
-    "id": "#JVT-013",
+    "id": "#JTV-013",
     "title": "PROYECTO INDUPARCK",
     "category": "Obras Civiles",
     "image": "/images/proyectos/proyecto-13.png",
@@ -99,7 +99,7 @@
     "description": "Instalación de oficina en Drywall."
   },
   {
-    "id": "#JVT-014",
+    "id": "#JTV-014",
     "title": "PROYECTO ALVID MEDIC",
     "category": "Obras Civiles",
     "image": "/images/proyectos/proyecto-14.png",
@@ -110,7 +110,7 @@
     "description": "Fabricación e instalación de mallas electrosoldadas (Área 300 m2)."
   },
   {
-    "id": "#JVT-016",
+    "id": "#JTV-016",
     "title": "PROYECTO HALION",
     "category": "Estructura Metálica",
     "image": "/images/proyectos/proyecto-16.png",
@@ -121,10 +121,10 @@
     "description": "Fabricación e instalación de techo metálico con cerramiento en Aluzinc. Área 620 m2."
   },
   {
-    "id": "#JVT-017",
+    "id": "#JTV-017",
     "title": "PROYECTO PRODAC 2",
     "category": "Estructura Metálica",
-    "image": "/images/proyectos/proyecto-17.3.png",
+    "image": "/images/proyectos/proyecto-17.png",
     "images": ["/images/proyectos/proyecto-17.png", "/images/proyectos/proyecto-17.1.png", "/images/proyectos/proyecto-17.2.png"],
     "location": "Perú",
     "year": "2026",

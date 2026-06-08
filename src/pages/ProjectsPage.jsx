@@ -9,7 +9,6 @@ const categories = [
   "Estructura Metálica",
   "Pintura Industrial",
   "Vidrio y Aluminio",
-  "Pisos Técnicos",
   "Obras Civiles"
 ];
 
