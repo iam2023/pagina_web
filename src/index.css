@@ -76,6 +76,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #1a1a1a;
   font-weight: 700;
   letter-spacing: -0.02em;
+  text-wrap: balance;
 }
 
 a {
@@ -214,12 +215,21 @@ p {
 .text-xs { font-size: 0.75rem; }
 .text-sm { font-size: 0.875rem; }
 .text-lg { font-size: 1.125rem; }
-.text-xl { font-size: 1.25rem; }
-.text-2xl { font-size: 1.5rem; }
-.text-3xl { font-size: 1.875rem; }
-.text-4xl { font-size: 2.25rem; }
-.text-5xl { font-size: 3rem; }
-.text-7xl { font-size: 4.5rem; }
+.text-xl { font-size: 1.125rem; } /* Reduced for mobile */
+.text-2xl { font-size: 1.25rem; } /* Reduced for mobile */
+.text-3xl { font-size: 1.5rem; } /* Reduced for mobile */
+.text-4xl { font-size: 1.75rem; } /* Reduced for mobile */
+.text-5xl { font-size: 2rem; } /* Reduced for mobile to fit 2 lines */
+.text-7xl { font-size: 2.5rem; } /* Reduced for mobile */
+
+@media (min-width: 768px) {
+  .text-xl { font-size: 1.25rem; }
+  .text-2xl { font-size: 1.5rem; }
+  .text-3xl { font-size: 1.875rem; }
+  .text-4xl { font-size: 2.25rem; }
+  .text-5xl { font-size: 3rem; }
+  .text-7xl { font-size: 4.5rem; }
+}
 .font-semibold { font-weight: 600; }
 .font-bold { font-weight: 700; }
 .font-black { font-weight: 900; }

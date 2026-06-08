@@ -34,7 +34,7 @@ const ServiceCard = ({
             {Icon && <Icon size={32} className="text-white" />}
           </div>
           <div className="max-w-xl">
-            <h3 className="text-4xl font-black text-white uppercase tracking-tighter mb-4 font-heading">{title}</h3>
+            <h3 className="text-xl font-black text-white uppercase tracking-tighter mb-4 font-heading">{title}</h3>
             <p className="text-white/90 text-sm mb-8 leading-relaxed font-semibold">{description}</p>
             
           </div>

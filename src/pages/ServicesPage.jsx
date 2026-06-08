@@ -81,7 +81,7 @@ const ServicesPage = () => {
                 <div className="w-12 h-1 bg-primary"></div>
                 <span className="text-[10px] font-black tracking-[0.5em] text-azulino-light/40 uppercase">Estandares Globales</span>
               </div>
-              <h2 className="text-4xl md:text-5xl font-black text-azulino-light uppercase tracking-[-0.04em] font-heading">
+              <h2 className="text-2xl mb-6 md:text-[32px] font-black text-azulino-light uppercase tracking-[-0.02em] font-headline">
                 Matriz de Servicios Técnicos
               </h2>
             </div>
