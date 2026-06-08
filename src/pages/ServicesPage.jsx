@@ -119,7 +119,7 @@ const ServicesPage = () => {
           <div className="mb-20 text-center">
             <span className="text-primary font-black tracking-[0.6em] text-[10px] uppercase mb-4 block underline underline-offset-8">Portafolio Técnico</span>
             <h2 className="text-5xl md:text-6xl font-black text-azulino uppercase tracking-tighter font-headline mb-6">
-              Proyectos de <span className="text-primary">Alto Impacto</span>
+              Proyectos <span className="text-primary">Ejecutados</span>
             </h2>
             <p className="text-azulino/50 max-w-2xl mx-auto text-[11px] font-bold uppercase tracking-[0.2em] leading-relaxed">
               Explora nuestra trayectoria en ejecución industrial. Cada proyecto es un testimonio de precisión técnica y compromiso con la excelencia estructural.

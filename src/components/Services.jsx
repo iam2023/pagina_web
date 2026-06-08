@@ -8,34 +8,34 @@ const servicesList = [
   { 
     icon: <Hammer size={32} />, 
     title: 'Estructuras Metálicas', 
-    id: 'metal', 
-    desc: 'Ingeniería de naves industriales, puentes y naves de alta complejidad.', 
-    img: '/images/servicios/estructurametalica.webp',
+    id: 'estructuras', 
+    desc: 'Ingeniería de naves industriales, puentes y estructuras de alta complejidad.', 
+    img: '/images/proyectos/proyecto-17.1.png',
     tag: 'ESTRUCTURAL'
   },
   { 
-    icon: <Paintbrush size={32} />, 
-    title: 'Recubrimientos Técnicos', 
-    id: 'paint', 
-    desc: 'Pintura industrial epóxica y acabados de alta resistencia.', 
-    img: '/images/servicios/pintura.webp',
-    tag: 'PROTECCIÓN'
+    icon: <HardHat size={32} />, 
+    title: 'Obras Civiles', 
+    id: 'obras', 
+    desc: 'Infraestructura base, cimentaciones y acabados estructurales de concreto.', 
+    img: '/images/servicios/obras-civiles-ia.png',
+    tag: 'CONSTRUCCIÓN'
   },
   { 
     icon: <Grid size={32} />, 
-    title: 'Obras Civiles', 
-    id: 'glass', 
-    desc: 'Muros cortina y cerramientos técnicos de eficiencia térmica.', 
-    img: '/images/servicios/vidrio.webp',
-    tag: 'ARQUITECTURA'
-  },
-  { 
-    icon: <Layers size={32} />, 
     title: 'Sistemas Drywall', 
     id: 'drywall', 
-    desc: 'Tabiquería técnica y cielos rasos industriales acústicos.', 
-    img: '/images/servicios/draiwel.webp',
+    desc: 'Tabiquería técnica, diseño de oficinas y cielos rasos acústicos.', 
+    img: '/images/proyectos/proyecto-13.png',
     tag: 'ACABADOS'
+  },
+  { 
+    icon: <Paintbrush size={32} />, 
+    title: 'Mantenimiento y Pintura Industrial', 
+    id: 'pintura', 
+    desc: 'Recubrimientos técnicos, pintado al horno y mantenimiento de racks.', 
+    img: '/images/proyectos/proyecto-11.png',
+    tag: 'PROTECCIÓN'
   }
 ];
 
@@ -63,7 +63,7 @@ const Services = () => {
                 <img 
                   src={service.img} 
                   alt={service.title} 
-                  className="w-full h-full object-cover opacity-30 group-hover:opacity-50 group-hover:scale-105 transition-all duration-1000 grayscale group-hover:grayscale-0"
+                  className="w-full h-full object-cover opacity-100 group-hover:scale-105 transition-all duration-1000"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-azulino via-azulino/60 to-transparent z-10" />
               </div>

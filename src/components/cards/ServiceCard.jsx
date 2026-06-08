@@ -50,9 +50,9 @@ const ServiceCard = ({
       <img 
         src={image} 
         alt={title}
-        className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-1000 opacity-60" 
+        className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-1000 opacity-100" 
       />
-      <div className="absolute inset-0 bg-azulino-light/80 group-hover:bg-azulino-light/60 transition-colors"></div>
+      <div className="absolute inset-0 bg-gradient-to-t from-azulino-light via-azulino-light/60 to-transparent"></div>
       <div className="relative z-10">
         <div className="text-primary mb-4">
           {Icon && <Icon size={28} />}
