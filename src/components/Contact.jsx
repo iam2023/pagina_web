@@ -101,7 +101,7 @@ const Contact = () => {
                   </div>
                   <div className="min-w-0 flex-1">
                     <h4 className="text-[10px] font-black uppercase tracking-widest text-text-muted mb-1 opacity-50">{item.label}</h4>
-                    <p className="text-azulino font-bold text-sm md:text-lg break-words md:break-normal break-all">{item.val}</p>
+                    <p className="text-azulino font-bold text-[10px] sm:text-xs md:text-lg whitespace-nowrap md:whitespace-normal tracking-tighter sm:tracking-normal">{item.val}</p>
                   </div>
                 </div>
               ))}

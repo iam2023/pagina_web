@@ -72,27 +72,27 @@ const Services = () => {
               {/* Content Container */}
               <div className="relative z-30 h-full p-8 flex flex-col">
                 {/* Top Section */}
-                <div className="flex-1">
+                <div className="flex-1 mt-[5px]">
                   <div className="w-12 h-12 rounded-sm border border-white/10 flex items-center justify-center text-white mb-6 group-hover:bg-primary group-hover:border-primary group-hover:rotate-[360deg] transition-all duration-1000">
                     {service.icon}
                   </div>
-                  <span className="text-[9px] font-black tracking-[0.4em] text-primary mb-2 block uppercase">
+                  <span className="text-[9px] font-black tracking-[0.4em] text-primary mb-2 block uppercase [text-shadow:_0_1px_2px_rgba(0,0,0,0.8)]">
                     {service.tag}
                   </span>
-                  <h3 className="text-2xl font-black text-white uppercase tracking-tighter leading-tight font-headline group-hover:translate-x-2 transition-transform duration-500">
+                  <h3 className="text-2xl font-black text-white uppercase tracking-tighter leading-tight font-headline group-hover:translate-x-2 transition-transform duration-500 [text-shadow:_0_2px_4px_rgba(0,0,0,0.8)]">
                     {service.title}
                   </h3>
                 </div>
 
                 {/* Bottom Section */}
                 <div className="pt-6 border-t border-white/5 group-hover:border-primary/20">
-                  <p className="text-white/40 text-[11px] font-medium leading-relaxed group-hover:text-white/80 transition-colors">
+                  <p className="text-white/40 text-[11px] font-medium leading-relaxed group-hover:text-white/80 transition-colors [text-shadow:_0_1px_3px_rgba(0,0,0,0.8)]">
                     {service.desc}
                   </p>
                   
                   {/* Action Link */}
-                  <div className="mt-6 flex items-center gap-2 text-[8px] font-black text-primary tracking-[0.3em] opacity-0 group-hover:opacity-100 transition-all transform translate-y-4 group-hover:translate-y-0 uppercase">
-                    Ver Especificaciones <div className="w-6 h-[1px] bg-primary"></div>
+                  <div className="mt-6 flex items-center gap-2 text-[8px] font-black text-primary tracking-[0.3em] opacity-0 group-hover:opacity-100 transition-all transform translate-y-4 group-hover:translate-y-0 uppercase [text-shadow:_0_1px_2px_rgba(0,0,0,0.8)]">
+                    Ver Especificaciones <div className="w-6 h-[1px] bg-primary shadow-[0_1px_2px_rgba(0,0,0,0.8)]"></div>
                   </div>
                 </div>
               </div>

@@ -34,8 +34,8 @@ const ServiceCard = ({
             {Icon && <Icon size={32} className="text-white" />}
           </div>
           <div className="max-w-xl">
-            <h3 className="text-xl font-black text-white uppercase tracking-tighter mb-4 font-heading">{title}</h3>
-            <p className="text-white/90 text-sm mb-8 leading-relaxed font-semibold">{description}</p>
+            <h3 className="text-xl font-black text-white uppercase tracking-tighter mb-4 font-heading [text-shadow:_0_2px_4px_rgba(0,0,0,0.8)]">{title}</h3>
+            <p className="text-white/90 text-sm mb-8 leading-relaxed font-semibold [text-shadow:_0_1px_3px_rgba(0,0,0,0.8)]">{description}</p>
             
           </div>
         </div>
@@ -59,8 +59,8 @@ const ServiceCard = ({
         <div className="text-primary mb-4">
           {Icon && <Icon size={28} />}
         </div>
-        <h3 className="text-xl font-black text-white uppercase tracking-tighter mb-3 font-heading leading-tight" dangerouslySetInnerHTML={{ __html: title }}></h3>
-        <p className="text-white/90 text-[11px] leading-relaxed font-bold uppercase tracking-wider">{description}</p>
+        <h3 className="text-xl font-black text-white uppercase tracking-tighter mb-3 font-heading leading-tight [text-shadow:_0_2px_4px_rgba(0,0,0,0.8)]" dangerouslySetInnerHTML={{ __html: title }}></h3>
+        <p className="text-white/90 text-[11px] leading-relaxed font-bold uppercase tracking-wider [text-shadow:_0_1px_3px_rgba(0,0,0,0.8)]">{description}</p>
       </div>
     </motion.div>
   );
