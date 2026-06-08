@@ -1,63 +1,51 @@
 [
   {
     "id": "1",
-    "slug": "optimizacion-estructuras-metalicas-naves-industriales",
-    "title": "Optimización de Estructuras Metálicas en Naves Industriales",
-    "excerpt": "Analizamos las técnicas más avanzadas para reducir el peso estructural sin comprometer la integridad sísmica, optimizando costos en proyectos de gran envergadura.",
-    "author": "Ing. Ricardo J. Torres",
-    "content": "<h2>Innovación en el Diseño Estructural</h2><p>La optimización de naves industriales hoy requiere un balance perfecto entre seguridad y eficiencia de materiales. En este artículo exploramos cómo el uso de software de modelado avanzado permite reducir hasta un 15% del peso muerto sin sacrificar la resistencia sísmica requerida por las normas peruanas.</p><h3>Técnicas de Aligeramiento</h3><p>Utilizamos perfiles de sección variable y conexiones empernadas de alta resistencia para garantizar una ejecución más rápida y segura en obra. El proceso comienza con un análisis de cargas vivas y muertas, seguido por una simulación de vientos extremos.</p><ul><li>Uso de acero grado 50 para mayor ductilidad.</li><li>Reducción de desperdicios en cortes mediante nesting digital.</li><li>Protección anticorrosiva de larga duración.</li></ul><p>Finalmente, la sostenibilidad juega un papel crucial, permitiendo que estas estructuras sean reciclables al final de su vida útil.</p>",
+    "slug": "construccion-mega-naves-industriales-prodac",
+    "title": "Construcción de Mega Naves Industriales: El caso PRODAC",
+    "excerpt": "Analizamos el desafío logístico y estructural en la fabricación e instalación de una nave industrial de 1600 m2 con vigas carrileras para soportar puente grúa.",
+    "author": "Gerencia de Proyectos JVT",
+    "content": "<h2>Ingeniería para la Gran Industria</h2><p>Realizar la fabricación e instalación de estructuras metálicas de gran escala exige una precisión absoluta. En nuestro reciente proyecto para PRODAC, abordamos la construcción de una nave industrial de <strong>1600 metros cuadrados</strong>.</p><h3>El Desafío de las 50 Toneladas</h3><p>Uno de los retos principales fue la instalación de las estructuras principales en Vigas H y las vigas carrileras, diseñadas específicamente para soportar el tránsito y las cargas dinámicas de un puente grúa. El montaje de las <strong>50 toneladas</strong> de estructura requirió una estricta planificación de izaje y un ensamblaje con tolerancias milimétricas.</p><p>Este proyecto demuestra nuestra capacidad para ejecutar obras que potencian la cadena de suministro y la capacidad de manufactura de las principales empresas del Perú, siempre cumpliendo con altos estándares de seguridad y calidad en soldadura y montaje.</p>",
     "date": "14 OCT 2024",
     "readingTime": "8 MIN LEÍDA",
-    "category": "INGENIERÍA ESTRUCTURAL",
-    "image": "/images/servicios/estructurametalica.webp"
+    "category": "CASOS DE ÉXITO",
+    "isFeatured": true,
+    "image": "/images/proyectos/proyecto-15.png"
   },
   {
     "id": "2",
-    "slug": "soldadura-robotizada-futuro-fabricacion-peru",
-    "title": "Soldadura Robotizada: El Futuro de la Fabricación en Perú",
-    "excerpt": "¿Cómo la automatización está transformando los talleres de fabricación metalmecánica locales, incrementando la precisión y la seguridad laboral?",
-    "author": "Equipo Técnico JVT",
-    "content": "<h2>Automatización en el Taller Industrial</h2><p>La soldadura robotizada ha dejado de ser un lujo de la industria automotriz para convertirse en una necesidad en la fabricación de estructuras pesadas. En JVT, hemos integrado celdas de soldadura que garantizan cordones perfectos y uniformes en cada unión.</p><h3>Ventajas Competitivas</h3><p>La principal ventaja es la repetibilidad. Un robot puede mantener el mismo ángulo y velocidad durante horas, algo imposible para un operario humano en jornadas extensas. Esto reduce drásticamente el retrabajo por fallas de porosidad o falta de penetración.</p><p>Además, liberamos a nuestros maestros soldadores de las tareas más repetitivas para que se enfoquen en ensambles complejos y control de calidad final.</p>",
+    "slug": "optimizando-espacio-vertical-logistica-aje",
+    "title": "Optimizando el espacio vertical: Naves industriales de gran altura",
+    "excerpt": "Cómo el diseño de naves de hasta 14 metros de altura mejora la eficiencia logística en el sector de consumo masivo, como vimos en el Proyecto Grupo AJE.",
+    "author": "Ingeniería Estructural JVT",
+    "content": "<h2>El Almacenamiento en el Sector Consumo</h2><p>En el rubro del consumo masivo y las bebidas, la optimización del espacio de almacenamiento es vital. El costo por metro cuadrado de terreno hace que la solución más inteligente sea crecer hacia arriba. Para nuestro cliente <strong>Grupo AJE</strong>, desarrollamos una solución a la medida.</p><h3>Diseño Estructural para 14 Metros de Altura</h3><p>Fabricamos e instalamos una nave industrial de <strong>2000 m2 con una altura libre de 14 metros</strong>. Esta altura excepcional permite la instalación de racks selectivos de múltiples niveles, maximizando la capacidad cúbica del almacén.</p><p>El diseño de estas naves requiere consideraciones especiales frente a las cargas de viento y eventos sísmicos, debido a la esbeltez de las columnas. En JVT garantizamos la estabilidad y seguridad de estas estructuras, permitiendo a nuestros clientes optimizar su logística interna.</p>",
     "date": "10 OCT 2024",
     "readingTime": "6 MIN LEÍDA",
-    "category": "INNOVACIÓN TECNOLÓGICA",
-    "image": "/images/servicios/pintura.webp"
+    "category": "INNOVACIÓN LOGÍSTICA",
+    "image": "/images/proyectos/proyecto-10.png"
   },
   {
     "id": "3",
-    "slug": "prevencion-corrosion-ambientes-salinos",
-    "title": "Prevención de Corrosión en Ambientes Salinos",
-    "excerpt": "Sistemas de pintura y recubrimientos epóxicos diseñados para proteger infraestructuras críticas en la costa peruana contra la humedad y el salitre.",
-    "author": "Ing. Carlos Mendoza",
-    "content": "<h2>El Desafío de la Costa Peruana</h2><p>La humedad relativa y la salinidad en zonas como el Callao o Pisco son de las más agresivas del mundo. Para proteger la inversión de nuestros clientes, aplicamos sistemas de recubrimiento tri-capa que detienen el proceso de oxidación galvánica desde el primer día.</p><h3>Proceso de Aplicación Técnica</h3><p>El primer paso es el granallado al metal blanco (norma SSPC-SP10), asegurando una superficie libre de contaminantes. Luego, aplicamos una base rica en zinc, seguida por una capa intermedia de epóxico de alto espesor.</p><p>El acabado final en poliuretano no solo da el color corporativo, sino que protege contra la radiación UV, evitando que la pintura se tiza y pierda sus propiedades protectoras.</p>",
+    "slug": "mantenimiento-pintado-horno-almacenamiento",
+    "title": "La importancia del mantenimiento y pintado industrial en racks",
+    "excerpt": "Prolongando la vida útil de las estructuras de almacenamiento mediante limpieza especializada y pintado al horno para ambientes controlados.",
+    "author": "Equipo Técnico JVT",
+    "content": "<h2>Más allá de la Fabricación: El Mantenimiento</h2><p>La inversión en racks de almacenamiento es significativa para cualquier empresa. Sin embargo, el tránsito constante de montacargas, la humedad y el desgaste natural pueden comprometer su integridad. En JVT, no solo fabricamos, sino que nos especializamos en el <strong>mantenimiento de estructuras racks</strong>.</p><h3>Pintado al Horno para Ambientes Críticos</h3><p>En proyectos como los realizados para DIMEXA o WESTCO, aplicamos técnicas de limpieza profunda y <strong>pintado al horno</strong>. Este tipo de recubrimiento ofrece una adherencia y dureza superior frente a la pintura convencional.</p><p>Especialmente para almacenamiento en ambientes controlados (como el sector farmacéutico o alimentario), un recubrimiento impecable previene la oxidación, evita la contaminación y cumple con las estrictas normativas sanitarias vigentes.</p>",
     "date": "05 OCT 2024",
-    "readingTime": "12 MIN LEÍDA",
+    "readingTime": "5 MIN LEÍDA",
     "category": "MANTENIMIENTO INDUSTRIAL",
-    "image": "/images/servicios/vidrio.webp"
+    "image": "/images/proyectos/proyecto-11.png"
   },
   {
     "id": "4",
-    "slug": "montaje-puente-grua-50-toneladas-planta-minera",
-    "title": "Montaje de Puente Grúa de 50 Toneladas en Planta Minera",
-    "excerpt": "Detallamos el proceso logístico y de ingeniería estructural requerido para el montaje de alta precisión en condiciones geográficas extremas a 4100 msnm.",
-    "author": "Gerencia de Proyectos JVT",
-    "content": "<h2>Ingeniería a Gran Altura</h2><p>Realizar el montaje de un puente grúa de 50 toneladas a más de 4000 metros sobre el nivel del mar presenta desafíos únicos: desde la pérdida de potencia de los equipos de izaje hasta las bajas temperaturas que afectan la fluidez de los aceites hidráulicos.</p><h3>Planificación y Maniobras</h3><p>Se diseñó un plan de izaje crítico con un factor de seguridad de 1.5, utilizando dos grúas de 120 toneladas operando en tándem. La precisión fue milimétrica: las vigas carrileras debían quedar alineadas con una tolerancia máxima de 2mm en toda su longitud.</p><p>Este proyecto fue entregado en tiempo record, cumpliendo con todos los protocolos de seguridad minera y garantizando la operatividad de la planta procesadora.</p>",
+    "slug": "modernizacion-almacenes-cerramientos-aluzinc",
+    "title": "Modernización de almacenes: Ventajas de los cerramientos en Aluzinc",
+    "excerpt": "Por qué el Aluzinc se ha convertido en el material de preferencia para cubiertas y cerramientos industriales, garantizando durabilidad y aislamiento.",
+    "author": "Ing. Carlos Mendoza",
+    "content": "<h2>Actualizando Infraestructura Existente</h2><p>Muchas empresas operan en instalaciones que requieren modernización para proteger sus activos y mejorar el confort térmico. En el <strong>Proyecto Papelera Chasqui</strong> y el <strong>Proyecto Halion</strong>, abordamos este reto mediante la instalación de cerramientos y techos metálicos utilizando <strong>Aluzinc</strong>.</p><h3>Beneficios del Aluzinc</h3><p>El Aluzinc, una aleación de aluminio y zinc, ofrece una resistencia a la corrosión hasta seis veces mayor que el acero galvanizado tradicional. Es un material ligero, lo que permite utilizar estructuras metálicas de soporte más livianas, reduciendo costos.</p><p>Además, su excelente reflectividad térmica ayuda a mantener una temperatura más estable en el interior de las naves industriales. En JVT realizamos tanto la instalación de coberturas nuevas como el mantenimiento de techos existentes, asegurando la impermeabilidad total del almacén.</p>",
     "date": "02 OCT 2024",
-    "readingTime": "15 MIN LEÍDA",
-    "category": "CASOS DE ÉXITO",
-    "isFeatured": true,
-    "image": "/images/servicios/estructurametalica.webp"
-  },
-  {
-    "id": "5",
-    "slug": "importancia-certificacion-iso-9001-estructuras",
-    "title": "Importancia de la Certificación ISO 9001 en Estructuras",
-    "excerpt": "La estandarización de procesos no es solo un requisito legal, sino la garantía de seguridad y durabilidad en cada pieza fabricada.",
-    "author": "Dpto. de Calidad JVT",
-    "content": "<h2>Calidad que se Traduce en Seguridad</h2><p>Contar con procesos certificados bajo la norma ISO 9001:2015 nos permite trazar cada pieza de acero desde que llega de la fundición hasta que queda instalada en el sitio del cliente. La calidad no es un accidente, es el resultado de un sistema riguroso.</p><h3>Trazabilidad y Pruebas</h3><p>Realizamos ensayos no destructivos (tintes penetrantes y ultrasonido) al 100% de nuestras soldaduras críticas. Esto asegura que no existan fallas internas que puedan comprometer la vida útil de la estructura.</p><p>Para JVT, la certificación es el compromiso formal de entregar excelencia técnica en cada proyecto, sin excepciones.</p>",
-    "date": "28 SEP 2024",
-    "readingTime": "5 MIN LEÍDA",
-    "category": "NORMATIVAS",
-    "image": "/images/servicios/draiwel.webp"
+    "readingTime": "7 MIN LEÍDA",
+    "category": "MATERIALES Y TÉCNICAS",
+    "image": "/images/proyectos/proyecto-7.png"
   }
 ]

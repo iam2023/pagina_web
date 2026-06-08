@@ -1,8 +1,8 @@
 [
-  { "id": "#JVT-091", "title": "Refuerzo Estructural", "sub": "Sede Logística - Lima", "img": "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&q=80&w=800" },
-  { "id": "#JVT-042", "title": "Recubrimiento Epóxico", "sub": "Planta Petroquímica", "img": "https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&q=80&w=800" },
-  { "id": "#JVT-118", "title": "Pavimentación Técnica", "sub": "Naves Industriales", "img": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&q=80&w=800" },
-  { "id": "#JVT-007", "title": "Muro Cortina Glass", "sub": "Centro Empresarial", "img": "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=800" },
-  { "id": "#JVT-204", "title": "Sistema Drywall", "sub": "Oficinas Corporativas", "img": "https://images.unsplash.com/photo-1513828583688-c52646db42da?auto=format&fit=crop&q=80&w=800" },
-  { "id": "#JVT-312", "title": "Soldadura Industrial", "sub": "Soportes de Gran Luz", "img": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&q=80&w=800" }
+  { "id": "#JVT-001", "title": "Naves Industriales", "sub": "PROYECTO PRODAC", "img": "/images/proyectos/proyecto-15.png" },
+  { "id": "#JVT-007", "title": "Nave Industrial 3000m2", "sub": "PAPELERA CHASQUI", "img": "/images/proyectos/proyecto-7.png" },
+  { "id": "#JVT-010", "title": "Nave Industrial 14m alt.", "sub": "GRUPO AJE", "img": "/images/proyectos/proyecto-10.png" },
+  { "id": "#JVT-015", "title": "Naves en Vigas H", "sub": "PROYECTO PRODAC", "img": "/images/proyectos/proyecto-15.png" },
+  { "id": "#JVT-006", "title": "Mallas Electrosoldadas", "sub": "PERIMETRAL", "img": "/images/proyectos/proyecto-6.png" },
+  { "id": "#JVT-009", "title": "Pintado de Racks", "sub": "WESTCO", "img": "/images/proyectos/proyecto-9.png" }
 ]

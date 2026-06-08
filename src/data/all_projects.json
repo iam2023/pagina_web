@@ -1,71 +1,134 @@
 [
   {
-    "id": "#JVT-091",
-    "title": "Planta de Almacenamiento Sur",
+    "id": "#JVT-001",
+    "title": "PROYECTO PRODAC - VIGAS CARRILERAS",
     "category": "Estructura Metálica",
-    "image": "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&q=80&w=1200",
-    "images": [
-      "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&q=80&w=1200",
-      "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&q=80&w=1200",
-      "https://images.unsplash.com/photo-1513828583688-c52646db42da?auto=format&fit=crop&q=80&w=1200"
-    ],
-    "location": "Lima, Perú",
-    "year": "2023",
-    "area": "12,500 m2",
-    "description": "Ejecución integral de estructura metálica para nave industrial de alta complejidad, incluyendo sistemas de soporte de gran luz y cerramientos técnicos."
+    "image": "/images/proyectos/proyecto-15.png",
+    "images": ["/images/proyectos/proyecto-15.png", "/images/proyectos/proyecto-15.1.png", "/images/proyectos/proyecto-15.2.png"],
+    "location": "Perú",
+    "year": "2024",
+    "area": "1600 m2",
+    "description": "Fabricación e instalación de Naves industriales en Vigas H con vigas Carrileras y puente grúa. Área 1600 m2 y peso de estructuras de 50 tn."
   },
   {
-    "id": "#JVT-042",
-    "title": "Edificio Corporativo Vidriado",
-    "category": "Vidrio y Aluminio",
-    "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=1200",
-    "images": [
-      "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=1200",
-      "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=1200"
-    ],
-    "location": "Lima, Perú",
-    "year": "2022",
-    "area": "4,200 m2",
-    "description": "Instalación de muro cortina y sistemas de carpintería de aluminio de alta eficiencia térmica para sede corporativa de primer nivel."
-  },
-  {
-    "id": "#JVT-118",
-    "title": "Nave Industrial Allemant",
-    "category": "Pintura Industrial",
-    "image": "https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&q=80&w=1200",
-    "images": [
-      "https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&q=80&w=1200",
-      "https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&q=80&w=1200"
-    ],
-    "location": "Arequipa, Perú",
-    "year": "2023",
-    "area": "8,900 m2",
-    "description": "Recubrimiento técnico con pintura epóxica de alta resistencia para ambientes corrosivos, garantizando durabilidad y cumplimiento de normas de seguridad."
+    "id": "#JVT-006",
+    "title": "PROYECTO PERIMETRAL",
+    "category": "Obras Civiles",
+    "image": "/images/proyectos/proyecto-6.png",
+    "images": ["/images/proyectos/proyecto-6.png"],
+    "location": "Perú",
+    "year": "2024",
+    "area": "N/A",
+    "description": "Fabricación e instalación de mallas electrosoldadas, con pintado al horno."
   },
   {
     "id": "#JVT-007",
-    "title": "Data Center Nacional",
-    "category": "Pisos Técnicos",
-    "image": "https://images.unsplash.com/photo-1741105820127-97dd1aaafe87?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "images": [
-      "https://images.unsplash.com/photo-1741105820127-97dd1aaafe87?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-    ],
-    "location": "Lima, Perú",
-    "year": "2021",
-    "area": "1,500 m2",
-    "description": "Instalación de sistema de piso técnico elevado para centro de datos, permitiendo una gestión eficiente de cableado y refrigeración."
+    "title": "PROYECTO PAPELERA CHASQUI - ALMACÉN",
+    "category": "Estructura Metálica",
+    "image": "/images/proyectos/proyecto-7.png",
+    "images": ["/images/proyectos/proyecto-7.png", "/images/proyectos/proyecto-7.1.png", "/images/proyectos/proyecto-7.2.png"],
+    "location": "Perú",
+    "year": "2024",
+    "area": "N/A",
+    "description": "Cerramiento con Aluzinc de almacén con mantenimiento de techo existente."
   },
   {
-    "id": "#JVT-204",
-    "title": "Puente Industrial Norte",
-    "category": "Obras Civiles",
-    "image": "https://plus.unsplash.com/premium_photo-1683133900434-8acceef1e4c0?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "images": [
-      "https://plus.unsplash.com/premium_photo-1683133900434-8acceef1e4c0?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-    ],
-    "location": "Piura, Perú",
+    "id": "#JVT-008",
+    "title": "PROYECTO TECNIFAJAS",
+    "category": "Estructura Metálica",
+    "image": "/images/proyectos/proyecto-8.png",
+    "images": ["/images/proyectos/proyecto-8.png", "/images/proyectos/proyecto-8.1.png", "/images/proyectos/proyecto-8.2.png"],
+    "location": "Perú",
     "year": "2024",
-    "area": "320 m",
-    "description": "Construcción de infraestructura civil crítica para el sector industrial, con enfoque en resistencia estructural y tiempos de ejecución optimizados."
+    "area": "300 m2",
+    "description": "Fabricación e instalación de techo a un agua (300 m2)."
+  },
+  {
+    "id": "#JVT-009",
+    "title": "PROYECTO WESTCO",
+    "category": "Pintura Industrial",
+    "image": "/images/proyectos/proyecto-9.png",
+    "images": ["/images/proyectos/proyecto-9.png", "/images/proyectos/proyecto-9.1.png", "/images/proyectos/proyecto-9.2.png"],
+    "location": "Perú",
+    "year": "2024",
+    "area": "400 m2",
+    "description": "Mantenimiento y pintado de estructuras de racks (400 m2)."
+  },
+  {
+    "id": "#JVT-010",
+    "title": "PROYECTO GRUPO AJE",
+    "category": "Estructura Metálica",
+    "image": "/images/proyectos/proyecto-10.png",
+    "images": ["/images/proyectos/proyecto-10.png", "/images/proyectos/proyecto-10.1.png", "/images/proyectos/proyecto-10.2.png"],
+    "location": "Perú",
+    "year": "2024",
+    "area": "2000 m2",
+    "description": "Fabricación e instalación de Nave industrial de 2000 m2 con una altura de 14 mts."
+  },
+  {
+    "id": "#JVT-011",
+    "title": "PROYECTO DIMEXA - ALMACENAMIENTO",
+    "category": "Pintura Industrial",
+    "image": "/images/proyectos/proyecto-11.png",
+    "images": ["/images/proyectos/proyecto-11.png", "/images/proyectos/proyecto-11.1.png", "/images/proyectos/proyecto-11.2.png"],
+    "location": "Perú",
+    "year": "2024",
+    "area": "N/A",
+    "description": "Mantenimiento de estructuras racks, pintado al horno y limpieza de estructuras para el almacenamiento en un ambiente controlado."
+  },
+  {
+    "id": "#JVT-012",
+    "title": "PROYECTO WEG",
+    "category": "Estructura Metálica",
+    "image": "/images/proyectos/proyecto-12.png",
+    "images": ["/images/proyectos/proyecto-12.png", "/images/proyectos/proyecto-12.1.png", "/images/proyectos/proyecto-12.2.png"],
+    "location": "Perú",
+    "year": "2024",
+    "area": "300 m2",
+    "description": "Fabricación e instalación de techo metálico a un agua con cerramiento de manta. Área de 300 m2."
+  },
+  {
+    "id": "#JVT-013",
+    "title": "PROYECTO INDUPARCK",
+    "category": "Obras Civiles",
+    "image": "/images/proyectos/proyecto-13.png",
+    "images": ["/images/proyectos/proyecto-13.png", "/images/proyectos/proyecto-13.1.png", "/images/proyectos/proyecto-13.2.png"],
+    "location": "Perú",
+    "year": "2024",
+    "area": "N/A",
+    "description": "Instalación de oficina en Drywall."
+  },
+  {
+    "id": "#JVT-014",
+    "title": "PROYECTO ALVID MEDIC",
+    "category": "Obras Civiles",
+    "image": "/images/proyectos/proyecto-14.png",
+    "images": ["/images/proyectos/proyecto-14.png", "/images/proyectos/proyecto-14.1.png", "/images/proyectos/proyecto-14.2.png"],
+    "location": "Perú",
+    "year": "2024",
+    "area": "300 m2",
+    "description": "Fabricación e instalación de mallas electrosoldadas (Área 300 m2)."
+  },
+  {
+    "id": "#JVT-016",
+    "title": "PROYECTO HALION",
+    "category": "Estructura Metálica",
+    "image": "/images/proyectos/proyecto-16.png",
+    "images": ["/images/proyectos/proyecto-16.png", "/images/proyectos/proyecto-16.1.png", "/images/proyectos/proyecto-16.2.png"],
+    "location": "Perú",
+    "year": "2024",
+    "area": "620 m2",
+    "description": "Fabricación e instalación de techo metálico con cerramiento en Aluzinc. Área 620 m2."
+  },
+  {
+    "id": "#JVT-017",
+    "title": "PROYECTO PRODAC 2",
+    "category": "Estructura Metálica",
+    "image": "/images/proyectos/proyecto-17.png",
+    "images": ["/images/proyectos/proyecto-17.png", "/images/proyectos/proyecto-17.1.png", "/images/proyectos/proyecto-17.2.png"],
+    "location": "Perú",
+    "year": "2024",
+    "area": "288 m2",
+    "description": "Fabricación e instalación de techo metálico liviano autosoportado en racks con cobertura Aluzinc (288 m2)."
   }
 ]
