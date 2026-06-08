@@ -10,7 +10,7 @@ const servicesList = [
     title: 'Estructuras Metálicas', 
     id: 'estructuras', 
     desc: 'Ingeniería de naves industriales, puentes y estructuras de alta complejidad.', 
-    img: '/images/proyectos/proyecto-17.1.png',
+    img: '/images/proyectos/proyecto-17.png',
     tag: 'ESTRUCTURAL'
   },
   { 
