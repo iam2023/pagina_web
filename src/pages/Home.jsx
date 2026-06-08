@@ -42,10 +42,14 @@ const Home = () => {
               </p>
             </motion.div>
           </div>
+        </div>
 
+        <div className="relative z-10 w-full px-2 md:px-0">
           <Services />
+        </div>
           
-          <div className="mt-24 flex flex-col items-center gap-6">
+        <div className="container relative z-10 mt-24">
+          <div className="flex flex-col items-center gap-6">
             <Link to="/servicios" className="btn bg-white text-azulino hover:bg-primary hover:text-white px-12 py-5 rounded-full font-black text-[10px] tracking-[0.3em] shadow-2xl transition-all">
               VER PORTAFOLIO COMPLETO
             </Link>

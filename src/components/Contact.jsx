@@ -95,13 +95,13 @@ const Contact = () => {
                 { icon: <Mail />, label: 'Relaciones Corporativas', val: 'jtv.servicios.sac@gmail.com' },
                 { icon: <MapPin />, label: 'Sede Administrativa', val: 'Villa María Del Triunfo, Lima – Perú' }
               ].map((item, idx) => (
-                <div key={idx} className="bg-gray-50 p-6 flex items-start gap-6 border-l-4 border-transparent hover:border-primary transition-all">
-                  <div className="w-12 h-12 bg-white text-primary flex items-center justify-center shadow-sm rounded-sm">
+                <div key={idx} className="bg-gray-50 p-4 md:p-6 flex items-start gap-4 md:gap-6 border-l-4 border-transparent hover:border-primary transition-all">
+                  <div className="w-10 h-10 md:w-12 md:h-12 shrink-0 bg-white text-primary flex items-center justify-center shadow-sm rounded-sm">
                     {item.icon}
                   </div>
-                  <div>
+                  <div className="min-w-0 flex-1">
                     <h4 className="text-[10px] font-black uppercase tracking-widest text-text-muted mb-1 opacity-50">{item.label}</h4>
-                    <p className="text-azulino font-bold text-lg">{item.val}</p>
+                    <p className="text-azulino font-bold text-sm md:text-lg break-words md:break-normal break-all">{item.val}</p>
                   </div>
                 </div>
               ))}

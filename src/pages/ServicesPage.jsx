@@ -93,15 +93,14 @@ const ServicesPage = () => {
       </section>
 
       {/* 3. THE RIGID MATRIX GRID */}
-      <section className="pb-32 px-8 relative bg-white">
-        <div className="absolute inset-0 opacity-[0.05] pointer-events-none" 
-             style={{ 
-               backgroundImage: 'radial-gradient(var(--color-azulino-light) 0.8px, transparent 0.8px)', 
+      <section className="pb-32 px-0 md:px-8 relative bg-white">
+        <div className="absolute inset-0 opacity-[0.01] pointer-events-none" 
+             style={{  
                backgroundSize: '24px 24px' 
              }}></div>
 
-        <div className="container mx-auto max-w-7xl relative z-10">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-5 md:auto-rows-[280px]">
+        <div className="container mx-auto max-w-7xl relative z-10 w-[100%]  md:w-full">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 auto-rows-[400px]">
             {servicesData.map((service) => (
               <ServiceCard 
                 key={service.id}

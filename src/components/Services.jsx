@@ -41,8 +41,8 @@ const servicesList = [
 
 const Services = () => {
   return (
-    <div className="services-grid-wrapper max-w-7xl mx-auto">
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 px-4 md:px-0">
+    <div className="services-grid-wrapper w-full mx-auto">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 w-[100%] md:w-full max-w-7xl mx-auto px-0 md:px-2">
         {servicesList.map((service, i) => (
           <motion.div
             key={service.id}
@@ -65,7 +65,8 @@ const Services = () => {
                   alt={service.title} 
                   className="w-full h-full object-cover opacity-100 group-hover:scale-105 transition-all duration-1000"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-azulino via-azulino/60 to-transparent z-10" />
+                <div className="absolute inset-0 bg-azulino/0 group-hover:bg-azulino/60 transition-colors duration-500 z-10" />
+                <div className="absolute inset-0 bg-gradient-to-t from-azulino/90 via-transparent to-transparent z-10 pointer-events-none" />
               </div>
 
               {/* Content Container */}

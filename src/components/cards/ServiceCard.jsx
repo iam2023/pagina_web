@@ -27,14 +27,15 @@ const ServiceCard = ({
           alt={title}
           className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000" 
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-azulino-light via-azulino-light/40 to-transparent"></div>
+        <div className="absolute inset-0 bg-azulino/0 group-hover:bg-azulino/60 transition-colors duration-500 z-0"></div>
+        <div className="absolute inset-0 bg-gradient-to-t from-azulino-light/90 via-transparent to-transparent z-0 pointer-events-none"></div>
         <div className="absolute inset-0 p-12 flex flex-col justify-between z-10">
           <div className="bg-primary w-14 h-14 flex items-center justify-center rounded-sm shadow-lg">
             {Icon && <Icon size={32} className="text-white" />}
           </div>
           <div className="max-w-xl">
             <h3 className="text-4xl font-black text-white uppercase tracking-tighter mb-4 font-heading">{title}</h3>
-            <p className="text-white/80 text-sm mb-8 leading-relaxed font-semibold">{description}</p>
+            <p className="text-white/90 text-sm mb-8 leading-relaxed font-semibold">{description}</p>
             
           </div>
         </div>
@@ -52,13 +53,14 @@ const ServiceCard = ({
         alt={title}
         className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-1000 opacity-100" 
       />
-      <div className="absolute inset-0 bg-gradient-to-t from-azulino-light via-azulino-light/60 to-transparent"></div>
+      <div className="absolute inset-0 bg-azulino/0 group-hover:bg-azulino/60 transition-colors duration-500 z-0"></div>
+      <div className="absolute inset-0 bg-gradient-to-t from-azulino-light/90 via-transparent to-transparent z-0 pointer-events-none"></div>
       <div className="relative z-10">
         <div className="text-primary mb-4">
           {Icon && <Icon size={28} />}
         </div>
         <h3 className="text-xl font-black text-white uppercase tracking-tighter mb-3 font-heading leading-tight" dangerouslySetInnerHTML={{ __html: title }}></h3>
-        <p className="text-white/70 text-[11px] leading-relaxed font-bold uppercase tracking-wider">{description}</p>
+        <p className="text-white/90 text-[11px] leading-relaxed font-bold uppercase tracking-wider">{description}</p>
       </div>
     </motion.div>
   );
