@@ -91,7 +91,7 @@ const Contact = () => {
 
             <div className="space-y-4 flex-1">
               {[
-                { icon: <Phone />, label: 'Asistencia Técnica', val: '+51 951 336 142' },
+                { icon: <Phone />, label: 'Asistencia Técnica', val: '+51 977 261 089' },
                 { icon: <Mail />, label: 'Relaciones Corporativas', val: 'jtv.servicios.sac@gmail.com' },
                 { icon: <MapPin />, label: 'Sede Administrativa', val: 'Villa María Del Triunfo, Lima – Perú' }
               ].map((item, idx) => (

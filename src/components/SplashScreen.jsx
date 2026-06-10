@@ -26,7 +26,7 @@ const SplashScreen = () => {
         <h1 className="text-white font-black text-5xl md:text-7xl tracking-[0.2em] text-center flex flex-col gap-2">
           JTV
           <span className="text-[#dc2626] tracking-[0.3em] font-bold text-3xl md:text-4xl mt-2">
-            SERVICIOS INTEGRALES
+            SERVICIOS GENERALES
           </span>
         </h1>
         

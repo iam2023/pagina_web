@@ -141,7 +141,7 @@ const ProjectModal = ({ project, onClose }) => {
           <button 
             onClick={() => {
               const msg = `¡Hola! Me gustaría solicitar información técnica detallada sobre el proyecto: *${project.title}* (Categoría: ${project.category}) ubicado en ${project.location}.`;
-              const url = `https://wa.me/51951336142?text=${encodeURIComponent(msg)}`;
+              const url = `https://wa.me/51977261089?text=${encodeURIComponent(msg)}`;
               window.open(url, '_blank', 'noopener,noreferrer');
             }}
             className="mt-12 w-full py-5 bg-azulino text-white font-black text-[10px] tracking-[0.3em] uppercase hover:bg-primary transition-all flex items-center justify-center gap-4"
@@ -314,7 +314,7 @@ const ProjectsPage = () => {
             <p className="text-lg text-gray-500 leading-relaxed">Nuestro equipo de ingenieros está listo para transformar sus planos en estructuras sólidas y seguras.</p>
           </div>
           <a 
-            href="https://wa.me/51951336142?text=%C2%A1Hola%21%20Estoy%20interesado%20en%20iniciar%20una%20cotizaci%C3%B3n%20para%20un%20proyecto%20industrial%20con%20JTV%20Servicios%20Generales."
+            href="https://wa.me/51977261089?text=%C2%A1Hola%21%20Estoy%20interesado%20en%20iniciar%20una%20cotizaci%C3%B3n%20para%20un%20proyecto%20industrial%20con%20JTV%20Servicios%20Generales."
             target="_blank"
             rel="noopener noreferrer"
             className="group flex items-center gap-4 bg-primary text-white px-10 py-5 rounded-sm font-black uppercase tracking-widest hover:bg-primary-dark transition-all"

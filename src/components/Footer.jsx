@@ -60,7 +60,7 @@ const Footer = () => {
                 <Phone className="text-primary" size={20} />
                 <div>
                   <div className="text-[10px] font-black uppercase opacity-30 mb-1">Central Telefónica</div>
-                  <div className="text-sm font-bold text-white uppercase tracking-wider">+51 951 336 142</div>
+                  <div className="text-sm font-bold text-white uppercase tracking-wider">+51 977 261 089</div>
                 </div>
               </div>
               <div className="flex gap-4">
@@ -107,7 +107,7 @@ const Footer = () => {
 
       {/* WhatsApp Button */}
       <a 
-        href="https://wa.me/51951336142" 
+        href="https://wa.me/51977261089" 
         target="_blank" 
         rel="noopener noreferrer"
         aria-label="Contactar por WhatsApp"

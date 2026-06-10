@@ -19,7 +19,7 @@ const SEO = ({
     "alternateName": "JTV Servicios",
     "image": image.startsWith('http') ? image : `${url}${image}`,
     "logo": `${url}/logo_jvt.png`, // Si existe un logo corporativo en la raíz
-    "telephone": "+51 951 336 142",
+    "telephone": "+51 977 261 089",
     "email": "jtv.servicios.sac@gmail.com",
     "address": {
       "@type": "PostalAddress",
