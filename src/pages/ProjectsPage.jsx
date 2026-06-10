@@ -7,9 +7,10 @@ import projects from '../data/all_projects.json';
 const categories = [
   "Todos",
   "Estructura Metálica",
+  "Obras Civiles",
   "Pintura Industrial",
-  "Vidrio y Aluminio",
-  "Obras Civiles"
+  "Vidrio y Aluminio"
+  
 ];
 
 const ProjectModal = ({ project, onClose }) => {
